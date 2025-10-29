@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+         <head>
+             <link rel="stylesheet" href="style.css">
+             <title>Warehouse</title>
+         </head>
+
+        	  	<div class = "centre">  
+        	   		<h1>
+        	      		<i class="fas fa-laptop"></i> Team DB PC Logistics <i class="fas fa-laptop"></i>
+        	   		</h1>
+        		</div>
+        		<div class="topnav center">
+        			  <a href=warehouse.html>Warehouse</a>
+        			  <a href=allParts.html>Parts</a>
+        			  <a href=customers.html>Customers</a>
+        			  <a href=orders.html>Customer Orders</a>
+        			  <a href=purchaseOrders.html>Purchase Orders</a>
+        			  <a href=deliveries.html>Deliveries</a>
+        		</div>
+<body>
+<h2 class = "centre">Birds-eye View of the Warehouse</h2>
+<table class='center two'>
+<div class='grid-container'>
+<div class='grid-item with-content' data-coordinate='0,0' onClick='showItemDetails("Part code: 1 - Motherboard\nManufacturer: Gigabyte\nDescription: AMD Ryzen A520 AM4 Mini-ITX Motherboard\nPrice: 103.00\nQuantity: 479\n\nLocated in warehouse section: 0,0")'>Part: 1<br />Qty: 479 0,0</div>
+<div class='grid-item with-content' data-coordinate='0,1' onClick='showItemDetails("Part code: 44 - PC Case\nManufacturer: Corsair\nDescription: 4000D Tempered Glass Mid-Tower ATX Case\nPrice: 89.99\nQuantity: 457\n\nLocated in warehouse section: 0,1")'>Part: 44<br />Qty: 457 0,1</div>
+<div class='grid-item with-content' data-coordinate='0,2' onClick='showItemDetails("Part code: 63 - CPU Cooler\nManufacturer: EVGA\nDescription: CLC 360mm All-In-One RGB LED CPU Liquid Cooler\nPrice: 119.99\nQuantity: 157\n\nLocated in warehouse section: 0,2")'>Part: 63<br />Qty: 157 0,2</div>
+<div class='grid-item with-content' data-coordinate='0,3' onClick='showItemDetails("Part code: 92 - Peripheral Card\nManufacturer: TP-Link\nDescription: Archer T4E AC1200 Wireless Dual Band PCI Express Adapter\nPrice: 29.99\nQuantity: 452\n\nLocated in warehouse section: 0,3")'>Part: 92<br />Qty: 452 0,3</div>
+<div class='grid-item with-content' data-coordinate='0,4' onClick='showItemDetails("Part code: 112 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance LPX 16GB (2 x 8GB) DDR4-3200 PC4-25600 Memory\nPrice: 72.99\nQuantity: 159\n\nLocated in warehouse section: 0,4")'>Part: 112<br />Qty: 159 0,4</div>
+<div class='grid-item with-content' data-coordinate='0,5' onClick='showItemDetails("Part code: 173 - Video Card\nManufacturer: Gigabyte\nDescription: GeForce GTX 1660 Ti Windforce OC\nPrice: 279.99\nQuantity: 313\n\nLocated in warehouse section: 0,5")'>Part: 173<br />Qty: 313 0,5</div>
+<div class='grid-item' data-coordinate='0,6'></div>
+<div class='grid-item with-content' data-coordinate='0,7' onClick='showItemDetails("Part code: 48 - PC Case\nManufacturer: Phanteks\nDescription: Eclipse P400A Digital ATX Case\nPrice: 89.99\nQuantity: 192\n\nLocated in warehouse section: 0,7")'>Part: 48<br />Qty: 192 0,7</div>
+<div class='grid-item with-content' data-coordinate='0,8' onClick='showItemDetails("Part code: 86 - Network Card\nManufacturer: NETGEAR\nDescription: Nighthawk AC1900 WiFi USB Adapter\nPrice: 74.99\nQuantity: 110\n\nLocated in warehouse section: 0,8")'>Part: 86<br />Qty: 110 0,8</div>
+<div class='grid-item' data-coordinate='0,9'></div>
+<div class='grid-item' data-coordinate='0,10'></div>
+<div class='grid-item' data-coordinate='0,11'></div>
+<div class='grid-item with-content' data-coordinate='0,12' onClick='showItemDetails("Part code: 6 - Motherboard\nManufacturer: MSI\nDescription: MPG X570 GAMING EDGE WIFI ATX Motherboard\nPrice: 209.99\nQuantity: 457\n\nLocated in warehouse section: 0,12")'>Part: 6<br />Qty: 457 0,12</div>
+<div class='grid-item' data-coordinate='0,13'></div>
+<div class='grid-item' data-coordinate='0,14'></div>
+<div class='grid-item' data-coordinate='0,15'></div>
+<div class='grid-item with-content' data-coordinate='0,16' onClick='showItemDetails("Part code: 167 - Video Card\nManufacturer: MSI\nDescription: Radeon RX 5700 XT GAMING X\nPrice: 399.99\nQuantity: 171\n\nLocated in warehouse section: 0,16")'>Part: 167<br />Qty: 171 0,16</div>
+<div class='grid-item' data-coordinate='0,17'></div>
+<div class='grid-item with-content' data-coordinate='0,18' onClick='showItemDetails("Part code: 201 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130025\nPrice: 36.11\nQuantity: 8\n\nLocated in warehouse section: 0,18")'>Part: 201<br />Qty: 8 0,18</div>
+<div class='grid-item with-content' data-coordinate='0,19' onClick='showItemDetails("Part code: 54 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-D15 CPU Cooler\nPrice: 89.90\nQuantity: 154\n\nLocated in warehouse section: 0,19")'>Part: 54<br />Qty: 154 0,19</div>
+<div class='grid-item' data-coordinate='0,20'></div>
+<div class='grid-item with-content' data-coordinate='0,21' onClick='showItemDetails("Part code: 107 - Power Supply\nManufacturer: EVGA\nDescription: 220-G3-0850-X1 Super Nova 850 G3 PSU\nPrice: 129.99\nQuantity: 223\n\nLocated in warehouse section: 0,21")'>Part: 107<br />Qty: 223 0,21</div>
+<div class='grid-item with-content' data-coordinate='0,22' onClick='showItemDetails("Part code: 128 - Random Access Memory\nManufacturer: G.Skill\nDescription: AEGIS 16GB (2 x 8GB) DDR4-3000 Memory\nPrice: 72.99\nQuantity: 430\n\nLocated in warehouse section: 0,22")'>Part: 128<br />Qty: 430 0,22</div>
+<div class='grid-item' data-coordinate='0,23'></div>
+<div class='grid-item with-content' data-coordinate='0,24' onClick='showItemDetails("Part code: 198 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130022\nPrice: 138.45\nQuantity: 182\n\nLocated in warehouse section: 0,24")'>Part: 198<br />Qty: 182 0,24</div>
+<div class='grid-item with-content' data-coordinate='0,25' onClick='showItemDetails("Part code: 41 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3800XT Processor\nPrice: 399.99\nQuantity: 219\n\nLocated in warehouse section: 0,25")'>Part: 41<br />Qty: 219 0,25</div>
+<div class='grid-item' data-coordinate='0,26'></div>
+<div class='grid-item with-content' data-coordinate='0,27' onClick='showItemDetails("Part code: 113 - Random Access Memory\nManufacturer: G.Skill\nDescription: Ripjaws V 32GB (2 x 16GB) DDR4-3600 PC4-28800 Memory\nPrice: 139.99\nQuantity: 457\n\nLocated in warehouse section: 0,27")'>Part: 113<br />Qty: 457 0,27</div>
+<div class='grid-item with-content' data-coordinate='0,28' onClick='showItemDetails("Part code: 129 - Random Access Memory\nManufacturer: Kingston\nDescription: HyperX FURY 8GB DDR4-3000 Memory\nPrice: 39.99\nQuantity: 158\n\nLocated in warehouse section: 0,28")'>Part: 129<br />Qty: 158 0,28</div>
+<div class='grid-item with-content' data-coordinate='0,29' onClick='showItemDetails("Part code: 181 - Peripheral\nManufacturer: Logitech\nDescription: Speakers Model 130005\nPrice: 235.53\nQuantity: 192\n\nLocated in warehouse section: 0,29")'>Part: 181<br />Qty: 192 0,29</div>
+<div class='grid-item' data-coordinate='1,0'></div>
+<div class='grid-item' data-coordinate='1,1'></div>
+<div class='grid-item with-content' data-coordinate='1,2' onClick='showItemDetails("Part code: 45 - PC Case\nManufacturer: NZXT\nDescription: H510 Compact ATX Mid-Tower Case\nPrice: 69.99\nQuantity: 407\n\nLocated in warehouse section: 1,2")'>Part: 45<br />Qty: 407 1,2</div>
+<div class='grid-item' data-coordinate='1,3'></div>
+<div class='grid-item' data-coordinate='1,4'></div>
+<div class='grid-item with-content' data-coordinate='1,5' onClick='showItemDetails("Part code: 124 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-FORCE VULCAN TUF Gaming 16GB (2 x 8GB) DDR4-3200\nPrice: 72.99\nQuantity: 240\n\nLocated in warehouse section: 1,5")'>Part: 124<br />Qty: 240 1,5</div>
+<div class='grid-item' data-coordinate='1,6'></div>
+<div class='grid-item' data-coordinate='1,7'></div>
+<div class='grid-item with-content' data-coordinate='1,8' onClick='showItemDetails("Part code: 27 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3700X Processor\nPrice: 324.99\nQuantity: 402\n\nLocated in warehouse section: 1,8")'>Part: 27<br />Qty: 402 1,8</div>
+<div class='grid-item with-content' data-coordinate='1,9' onClick='showItemDetails("Part code: 102 - Power Supply\nManufacturer: Thermaltake\nDescription: Toughpower GF1 850W 80+ Gold Fully Modular\nPrice: 149.99\nQuantity: 238\n\nLocated in warehouse section: 1,9")'>Part: 102<br />Qty: 238 1,9</div>
+<div class='grid-item' data-coordinate='1,10'></div>
+<div class='grid-item with-content' data-coordinate='1,11' onClick='showItemDetails("Part code: 145 - Storage\nManufacturer: Samsung\nDescription: 860 EVO 500GB 2.5 Inch SATA III Internal SSD\nPrice: 69.99\nQuantity: 162\n\nLocated in warehouse section: 1,11")'>Part: 145<br />Qty: 162 1,11</div>
+<div class='grid-item with-content' data-coordinate='1,12' onClick='showItemDetails("Part code: 183 - Peripheral\nManufacturer: Dell\nDescription: Scanner Model 130007\nPrice: 240.71\nQuantity: 84\n\nLocated in warehouse section: 1,12")'>Part: 183<br />Qty: 84 1,12</div>
+<div class='grid-item with-content' data-coordinate='1,13' onClick='showItemDetails("Part code: 202 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130026\nPrice: 31.36\nQuantity: 472\n\nLocated in warehouse section: 1,13")'>Part: 202<br />Qty: 472 1,13</div>
+<div class='grid-item' data-coordinate='1,14'></div>
+<div class='grid-item with-content' data-coordinate='1,15' onClick='showItemDetails("Part code: 52 - PC Case\nManufacturer: Be Quiet!\nDescription: Pure Base 500DX ATX Case\nPrice: 99.99\nQuantity: 236\n\nLocated in warehouse section: 1,15")'>Part: 52<br />Qty: 236 1,15</div>
+<div class='grid-item with-content' data-coordinate='1,16' onClick='showItemDetails("Part code: 43 - Processor\nManufacturer: AMD\nDescription: Ryzen 9 3900XT Processor\nPrice: 489.99\nQuantity: 51\n\nLocated in warehouse section: 1,16")'>Part: 43<br />Qty: 51 1,16</div>
+<div class='grid-item' data-coordinate='1,17'></div>
+<div class='grid-item with-content' data-coordinate='1,18' onClick='showItemDetails("Part code: 161 - Video Card\nManufacturer: Gigabyte\nDescription: AORUS GeForce RTX 3090 XTREME\nPrice: 1499.99\nQuantity: 42\n\nLocated in warehouse section: 1,18")'>Part: 161<br />Qty: 42 1,18</div>
+<div class='grid-item' data-coordinate='1,19'></div>
+<div class='grid-item' data-coordinate='1,20'></div>
+<div class='grid-item' data-coordinate='1,21'></div>
+<div class='grid-item' data-coordinate='1,22'></div>
+<div class='grid-item with-content' data-coordinate='1,23' onClick='showItemDetails("Part code: 145 - Storage\nManufacturer: Samsung\nDescription: 860 EVO 500GB 2.5 Inch SATA III Internal SSD\nPrice: 69.99\nQuantity: 78\n\nLocated in warehouse section: 1,23")'>Part: 145<br />Qty: 78 1,23</div>
+<div class='grid-item' data-coordinate='1,24'></div>
+<div class='grid-item with-content' data-coordinate='1,25' onClick='showItemDetails("Part code: 187 - Peripheral\nManufacturer: Canon\nDescription: Monitor Model 130011\nPrice: 251.56\nQuantity: 19\n\nLocated in warehouse section: 1,25")'>Part: 187<br />Qty: 19 1,25</div>
+<div class='grid-item with-content' data-coordinate='1,26' onClick='showItemDetails("Part code: 21 - Motherboard\nManufacturer: ASRock\nDescription: H410M-HDV/M.2 Micro-ATX Motherboard\nPrice: 59.99\nQuantity: 443\n\nLocated in warehouse section: 1,26")'>Part: 21<br />Qty: 443 1,26</div>
+<div class='grid-item' data-coordinate='1,27'></div>
+<div class='grid-item' data-coordinate='1,28'></div>
+<div class='grid-item' data-coordinate='1,29'></div>
+<div class='grid-item with-content' data-coordinate='2,0' onClick='showItemDetails("Part code: 172 - Video Card\nManufacturer: ZOTAC\nDescription: Gaming GeForce GTX 1660 Twin Fan\nPrice: 219.99\nQuantity: 35\n\nLocated in warehouse section: 2,0")'>Part: 172<br />Qty: 35 2,0</div>
+<div class='grid-item' data-coordinate='2,1'></div>
+<div class='grid-item with-content' data-coordinate='2,2' onClick='showItemDetails("Part code: 195 - Peripheral\nManufacturer: Philips\nDescription: Scanner Model 130019\nPrice: 57.58\nQuantity: 244\n\nLocated in warehouse section: 2,2")'>Part: 195<br />Qty: 244 2,2</div>
+<div class='grid-item' data-coordinate='2,3'></div>
+<div class='grid-item' data-coordinate='2,4'></div>
+<div class='grid-item with-content' data-coordinate='2,5' onClick='showItemDetails("Part code: 104 - Power Supply\nManufacturer: be quiet!\nDescription: Straight Power 11 850W Fully Modular 80+ Gold\nPrice: 139.99\nQuantity: 485\n\nLocated in warehouse section: 2,5")'>Part: 104<br />Qty: 485 2,5</div>
+<div class='grid-item with-content' data-coordinate='2,6' onClick='showItemDetails("Part code: 131 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-Force DARK Z 32GB (2 x 16GB) DDR4-3600 Memory\nPrice: 149.99\nQuantity: 273\n\nLocated in warehouse section: 2,6")'>Part: 131<br />Qty: 273 2,6</div>
+<div class='grid-item' data-coordinate='2,7'></div>
+<div class='grid-item' data-coordinate='2,8'></div>
+<div class='grid-item' data-coordinate='2,9'></div>
+<div class='grid-item with-content' data-coordinate='2,10' onClick='showItemDetails("Part code: 88 - Network Card\nManufacturer: TP-Link\nDescription: Archer T9E AC1900 Wireless Dual Band PCI Express Adapter\nPrice: 69.99\nQuantity: 45\n\nLocated in warehouse section: 2,10")'>Part: 88<br />Qty: 45 2,10</div>
+<div class='grid-item with-content' data-coordinate='2,11' onClick='showItemDetails("Part code: 113 - Random Access Memory\nManufacturer: G.Skill\nDescription: Ripjaws V 32GB (2 x 16GB) DDR4-3600 PC4-28800 Memory\nPrice: 139.99\nQuantity: 285\n\nLocated in warehouse section: 2,11")'>Part: 113<br />Qty: 285 2,11</div>
+<div class='grid-item' data-coordinate='2,12'></div>
+<div class='grid-item' data-coordinate='2,13'></div>
+<div class='grid-item' data-coordinate='2,14'></div>
+<div class='grid-item' data-coordinate='2,15'></div>
+<div class='grid-item with-content' data-coordinate='2,16' onClick='showItemDetails("Part code: 92 - Peripheral Card\nManufacturer: TP-Link\nDescription: Archer T4E AC1200 Wireless Dual Band PCI Express Adapter\nPrice: 29.99\nQuantity: 272\n\nLocated in warehouse section: 2,16")'>Part: 92<br />Qty: 272 2,16</div>
+<div class='grid-item with-content' data-coordinate='2,17' onClick='showItemDetails("Part code: 102 - Power Supply\nManufacturer: Thermaltake\nDescription: Toughpower GF1 850W 80+ Gold Fully Modular\nPrice: 149.99\nQuantity: 377\n\nLocated in warehouse section: 2,17")'>Part: 102<br />Qty: 377 2,17</div>
+<div class='grid-item with-content' data-coordinate='2,18' onClick='showItemDetails("Part code: 154 - Storage\nManufacturer: Samsung\nDescription: 870 QVO 1TB 2.5 Inch SATA III Internal SSD\nPrice: 109.99\nQuantity: 445\n\nLocated in warehouse section: 2,18")'>Part: 154<br />Qty: 445 2,18</div>
+<div class='grid-item' data-coordinate='2,19'></div>
+<div class='grid-item' data-coordinate='2,20'></div>
+<div class='grid-item' data-coordinate='2,21'></div>
+<div class='grid-item' data-coordinate='2,22'></div>
+<div class='grid-item' data-coordinate='2,23'></div>
+<div class='grid-item' data-coordinate='2,24'></div>
+<div class='grid-item' data-coordinate='2,25'></div>
+<div class='grid-item with-content' data-coordinate='2,26' onClick='showItemDetails("Part code: 200 - Peripheral\nManufacturer: Dell\nDescription: Monitor Model 130024\nPrice: 168.16\nQuantity: 186\n\nLocated in warehouse section: 2,26")'>Part: 200<br />Qty: 186 2,26</div>
+<div class='grid-item with-content' data-coordinate='2,27' onClick='showItemDetails("Part code: 52 - PC Case\nManufacturer: Be Quiet!\nDescription: Pure Base 500DX ATX Case\nPrice: 99.99\nQuantity: 250\n\nLocated in warehouse section: 2,27")'>Part: 52<br />Qty: 250 2,27</div>
+<div class='grid-item' data-coordinate='2,28'></div>
+<div class='grid-item' data-coordinate='2,29'></div>
+<div class='grid-item with-content' data-coordinate='3,0' onClick='showItemDetails("Part code: 106 - Power Supply\nManufacturer: Corsair\nDescription: Hx 1000I 80 Plus Platinum Certified 1000W PSU\nPrice: 199.99\nQuantity: 266\n\nLocated in warehouse section: 3,0")'>Part: 106<br />Qty: 266 3,0</div>
+<div class='grid-item with-content' data-coordinate='3,1' onClick='showItemDetails("Part code: 140 - Sound Card\nManufacturer: ASUS\nDescription: Xonar AE Sound Board\nPrice: 59.99\nQuantity: 142\n\nLocated in warehouse section: 3,1")'>Part: 140<br />Qty: 142 3,1</div>
+<div class='grid-item' data-coordinate='3,2'></div>
+<div class='grid-item with-content' data-coordinate='3,3' onClick='showItemDetails("Part code: 19 - Motherboard\nManufacturer: ASUS\nDescription: ROG Strix B460-H Gaming ATX Motherboard\nPrice: 134.99\nQuantity: 55\n\nLocated in warehouse section: 3,3")'>Part: 19<br />Qty: 55 3,3</div>
+<div class='grid-item' data-coordinate='3,4'></div>
+<div class='grid-item with-content' data-coordinate='3,5' onClick='showItemDetails("Part code: 82 - Network Card\nManufacturer: TP-Link\nDescription: Archer T6E AC1300 PCIe Wireless WiFi network Adapter Card\nPrice: 39.99\nQuantity: 217\n\nLocated in warehouse section: 3,5")'>Part: 82<br />Qty: 217 3,5</div>
+<div class='grid-item with-content' data-coordinate='3,6' onClick='showItemDetails("Part code: 134 - Random Access Memory\nManufacturer: G.Skill\nDescription: Trident Z RGB 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 99.99\nQuantity: 276\n\nLocated in warehouse section: 3,6")'>Part: 134<br />Qty: 276 3,6</div>
+<div class='grid-item with-content' data-coordinate='3,7' onClick='showItemDetails("Part code: 154 - Storage\nManufacturer: Samsung\nDescription: 870 QVO 1TB 2.5 Inch SATA III Internal SSD\nPrice: 109.99\nQuantity: 464\n\nLocated in warehouse section: 3,7")'>Part: 154<br />Qty: 464 3,7</div>
+<div class='grid-item' data-coordinate='3,8'></div>
+<div class='grid-item with-content' data-coordinate='3,9' onClick='showItemDetails("Part code: 191 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130015\nPrice: 60.33\nQuantity: 357\n\nLocated in warehouse section: 3,9")'>Part: 191<br />Qty: 357 3,9</div>
+<div class='grid-item with-content' data-coordinate='3,10' onClick='showItemDetails("Part code: 56 - CPU Cooler\nManufacturer: Corsair\nDescription: Hydro Series H100i RGB PLATINUM Liquid CPU Cooler\nPrice: 159.99\nQuantity: 130\n\nLocated in warehouse section: 3,10")'>Part: 56<br />Qty: 130 3,10</div>
+<div class='grid-item with-content' data-coordinate='3,11' onClick='showItemDetails("Part code: 84 - Network Card\nManufacturer: TP-Link\nDescription: AC1200 PCIe WiFi Card for PC\nPrice: 29.99\nQuantity: 453\n\nLocated in warehouse section: 3,11")'>Part: 84<br />Qty: 453 3,11</div>
+<div class='grid-item with-content' data-coordinate='3,12' onClick='showItemDetails("Part code: 114 - Random Access Memory\nManufacturer: Kingston\nDescription: HyperX Fury 8GB (1 x 8GB) DDR4-2666 PC4-21300 Memory\nPrice: 36.99\nQuantity: 236\n\nLocated in warehouse section: 3,12")'>Part: 114<br />Qty: 236 3,12</div>
+<div class='grid-item with-content' data-coordinate='3,13' onClick='showItemDetails("Part code: 163 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1660 SUPER VENTUS XS OC\nPrice: 239.99\nQuantity: 276\n\nLocated in warehouse section: 3,13")'>Part: 163<br />Qty: 276 3,13</div>
+<div class='grid-item with-content' data-coordinate='3,14' onClick='showItemDetails("Part code: 183 - Peripheral\nManufacturer: Dell\nDescription: Scanner Model 130007\nPrice: 240.71\nQuantity: 489\n\nLocated in warehouse section: 3,14")'>Part: 183<br />Qty: 489 3,14</div>
+<div class='grid-item with-content' data-coordinate='3,15' onClick='showItemDetails("Part code: 25 - Processor\nManufacturer: AMD\nDescription: Ryzen 5 3600 Processor\nPrice: 204.99\nQuantity: 42\n\nLocated in warehouse section: 3,15")'>Part: 25<br />Qty: 42 3,15</div>
+<div class='grid-item with-content' data-coordinate='3,16' onClick='showItemDetails("Part code: 66 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-U9B SE2\nPrice: 59.99\nQuantity: 444\n\nLocated in warehouse section: 3,16")'>Part: 66<br />Qty: 444 3,16</div>
+<div class='grid-item' data-coordinate='3,17'></div>
+<div class='grid-item with-content' data-coordinate='3,18' onClick='showItemDetails("Part code: 103 - Power Supply\nManufacturer: Gigabyte\nDescription: GP-P750GM - 750 Watt 80 Plus Gold Certified Fully Modular PSU\nPrice: 109.99\nQuantity: 322\n\nLocated in warehouse section: 3,18")'>Part: 103<br />Qty: 322 3,18</div>
+<div class='grid-item' data-coordinate='3,19'></div>
+<div class='grid-item with-content' data-coordinate='3,20' onClick='showItemDetails("Part code: 184 - Peripheral\nManufacturer: Microsoft\nDescription: Scanner Model 130008\nPrice: 278.71\nQuantity: 117\n\nLocated in warehouse section: 3,20")'>Part: 184<br />Qty: 117 3,20</div>
+<div class='grid-item' data-coordinate='3,21'></div>
+<div class='grid-item with-content' data-coordinate='3,22' onClick='showItemDetails("Part code: 70 - Case Fan\nManufacturer: Corsair\nDescription: LL120 RGB 120mm Dual Light Loop RGB LED PWM Fan\nPrice: 34.99\nQuantity: 207\n\nLocated in warehouse section: 3,22")'>Part: 70<br />Qty: 207 3,22</div>
+<div class='grid-item with-content' data-coordinate='3,23' onClick='showItemDetails("Part code: 81 - Case Fan\nManufacturer: EKWB\nDescription: EK-Vardar EVO 120ER RGB (500-2200 rpm)\nPrice: 29.99\nQuantity: 327\n\nLocated in warehouse section: 3,23")'>Part: 81<br />Qty: 327 3,23</div>
+<div class='grid-item' data-coordinate='3,24'></div>
+<div class='grid-item with-content' data-coordinate='3,25' onClick='showItemDetails("Part code: 137 - Sound Card\nManufacturer: Creative Labs\nDescription: Sound Blaster Audigy Fx\nPrice: 39.99\nQuantity: 404\n\nLocated in warehouse section: 3,25")'>Part: 137<br />Qty: 404 3,25</div>
+<div class='grid-item' data-coordinate='3,26'></div>
+<div class='grid-item' data-coordinate='3,27'></div>
+<div class='grid-item with-content' data-coordinate='3,28' onClick='showItemDetails("Part code: 36 - Processor\nManufacturer: Intel\nDescription: Core i9-10850K Processor\nPrice: 449.99\nQuantity: 13\n\nLocated in warehouse section: 3,28")'>Part: 36<br />Qty: 13 3,28</div>
+<div class='grid-item with-content' data-coordinate='3,29' onClick='showItemDetails("Part code: 71 - Case Fan\nManufacturer: Noctua\nDescription: NF-A12x25 PWM chromax.black.swap, Premium Quiet Fan, 4-Pin\nPrice: 29.90\nQuantity: 387\n\nLocated in warehouse section: 3,29")'>Part: 71<br />Qty: 387 3,29</div>
+<div class='grid-item with-content' data-coordinate='4,0' onClick='showItemDetails("Part code: 85 - Network Card\nManufacturer: Edimax\nDescription: EW-7822PIC AC1200 Dual-Band MU-MIMO Wi-Fi/Bluetooth 4.2 PCI-E Adapter\nPrice: 44.99\nQuantity: 24\n\nLocated in warehouse section: 4,0")'>Part: 85<br />Qty: 24 4,0</div>
+<div class='grid-item' data-coordinate='4,1'></div>
+<div class='grid-item' data-coordinate='4,2'></div>
+<div class='grid-item' data-coordinate='4,3'></div>
+<div class='grid-item with-content' data-coordinate='4,4' onClick='showItemDetails("Part code: 16 - Motherboard\nManufacturer: ASUS\nDescription: TUF GAMING B550M-PLUS (WI-FI 6) Micro-ATX Motherboard\nPrice: 139.99\nQuantity: 478\n\nLocated in warehouse section: 4,4")'>Part: 16<br />Qty: 478 4,4</div>
+<div class='grid-item' data-coordinate='4,5'></div>
+<div class='grid-item with-content' data-coordinate='4,6' onClick='showItemDetails("Part code: 97 - Power Supply\nManufacturer: Corsair\nDescription: RM850x 850 Watt 80 Plus Gold Certified Fully Modular PSU\nPrice: 134.99\nQuantity: 336\n\nLocated in warehouse section: 4,6")'>Part: 97<br />Qty: 336 4,6</div>
+<div class='grid-item' data-coordinate='4,7'></div>
+<div class='grid-item' data-coordinate='4,8'></div>
+<div class='grid-item' data-coordinate='4,9'></div>
+<div class='grid-item' data-coordinate='4,10'></div>
+<div class='grid-item with-content' data-coordinate='4,11' onClick='showItemDetails("Part code: 53 - CPU Cooler\nManufacturer: Cooler Master\nDescription: Hyper 212 LED CPU Cooler\nPrice: 34.99\nQuantity: 82\n\nLocated in warehouse section: 4,11")'>Part: 53<br />Qty: 82 4,11</div>
+<div class='grid-item with-content' data-coordinate='4,12' onClick='showItemDetails("Part code: 65 - CPU Cooler\nManufacturer: Phanteks\nDescription: PH-TC14PE 5 x Ø\nPrice: 79.99\nQuantity: 173\n\nLocated in warehouse section: 4,12")'>Part: 65<br />Qty: 173 4,12</div>
+<div class='grid-item with-content' data-coordinate='4,13' onClick='showItemDetails("Part code: 110 - Power Supply\nManufacturer: Cooler Master\nDescription: MasterWatt Maker 1200 MIJ 80 PLUS Titanium\nPrice: 999.99\nQuantity: 163\n\nLocated in warehouse section: 4,13")'>Part: 110<br />Qty: 163 4,13</div>
+<div class='grid-item with-content' data-coordinate='4,14' onClick='showItemDetails("Part code: 164 - Video Card\nManufacturer: ZOTAC\nDescription: GeForce GTX 1060 AMP Edition\nPrice: 209.99\nQuantity: 243\n\nLocated in warehouse section: 4,14")'>Part: 164<br />Qty: 243 4,14</div>
+<div class='grid-item' data-coordinate='4,15'></div>
+<div class='grid-item with-content' data-coordinate='4,16' onClick='showItemDetails("Part code: 20 - Motherboard\nManufacturer: Gigabyte\nDescription: A520I AC AM4 Mini-ITX Motherboard\nPrice: 84.99\nQuantity: 407\n\nLocated in warehouse section: 4,16")'>Part: 20<br />Qty: 407 4,16</div>
+<div class='grid-item' data-coordinate='4,17'></div>
+<div class='grid-item' data-coordinate='4,18'></div>
+<div class='grid-item' data-coordinate='4,19'></div>
+<div class='grid-item' data-coordinate='4,20'></div>
+<div class='grid-item' data-coordinate='4,21'></div>
+<div class='grid-item with-content' data-coordinate='4,22' onClick='showItemDetails("Part code: 16 - Motherboard\nManufacturer: ASUS\nDescription: TUF GAMING B550M-PLUS (WI-FI 6) Micro-ATX Motherboard\nPrice: 139.99\nQuantity: 68\n\nLocated in warehouse section: 4,22")'>Part: 16<br />Qty: 68 4,22</div>
+<div class='grid-item with-content' data-coordinate='4,23' onClick='showItemDetails("Part code: 41 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3800XT Processor\nPrice: 399.99\nQuantity: 323\n\nLocated in warehouse section: 4,23")'>Part: 41<br />Qty: 323 4,23</div>
+<div class='grid-item' data-coordinate='4,24'></div>
+<div class='grid-item with-content' data-coordinate='4,25' onClick='showItemDetails("Part code: 150 - Storage\nManufacturer: Western Digital\nDescription: WD_Black SN750 500GB NVMe Internal Gaming SSD\nPrice: 69.99\nQuantity: 26\n\nLocated in warehouse section: 4,25")'>Part: 150<br />Qty: 26 4,25</div>
+<div class='grid-item' data-coordinate='4,26'></div>
+<div class='grid-item with-content' data-coordinate='4,27' onClick='showItemDetails("Part code: 189 - Peripheral\nManufacturer: Canon\nDescription: Printer Model 130013\nPrice: 47.16\nQuantity: 395\n\nLocated in warehouse section: 4,27")'>Part: 189<br />Qty: 395 4,27</div>
+<div class='grid-item with-content' data-coordinate='4,28' onClick='showItemDetails("Part code: 31 - Processor\nManufacturer: AMD\nDescription: Ryzen 3 3200G Processor\nPrice: 104.99\nQuantity: 435\n\nLocated in warehouse section: 4,28")'>Part: 31<br />Qty: 435 4,28</div>
+<div class='grid-item with-content' data-coordinate='4,29' onClick='showItemDetails("Part code: 32 - Processor\nManufacturer: Intel\nDescription: Core i9-10980XE Processor\nPrice: 979.99\nQuantity: 427\n\nLocated in warehouse section: 4,29")'>Part: 32<br />Qty: 427 4,29</div>
+<div class='grid-item with-content' data-coordinate='5,0' onClick='showItemDetails("Part code: 31 - Processor\nManufacturer: AMD\nDescription: Ryzen 3 3200G Processor\nPrice: 104.99\nQuantity: 372\n\nLocated in warehouse section: 5,0")'>Part: 31<br />Qty: 372 5,0</div>
+<div class='grid-item' data-coordinate='5,1'></div>
+<div class='grid-item with-content' data-coordinate='5,2' onClick='showItemDetails("Part code: 94 - Peripheral Card\nManufacturer: StarTech\nDescription: 2 Port PCI RS422/485 Serial Adapter Card with 161050 UART\nPrice: 69.99\nQuantity: 36\n\nLocated in warehouse section: 5,2")'>Part: 94<br />Qty: 36 5,2</div>
+<div class='grid-item with-content' data-coordinate='5,3' onClick='showItemDetails("Part code: 147 - Storage\nManufacturer: Western Digital\nDescription: Blue 1TB PC Hard Drive - 7200 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5"\nPrice: 44.99\nQuantity: 69\n\nLocated in warehouse section: 5,3")'>Part: 147<br />Qty: 69 5,3</div>
+<div class='grid-item with-content' data-coordinate='5,4' onClick='showItemDetails("Part code: 191 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130015\nPrice: 60.33\nQuantity: 88\n\nLocated in warehouse section: 5,4")'>Part: 191<br />Qty: 88 5,4</div>
+<div class='grid-item with-content' data-coordinate='5,5' onClick='showItemDetails("Part code: 24 - Processor\nManufacturer: Intel\nDescription: Core i5-10600K Processor\nPrice: 239.99\nQuantity: 23\n\nLocated in warehouse section: 5,5")'>Part: 24<br />Qty: 23 5,5</div>
+<div class='grid-item with-content' data-coordinate='5,6' onClick='showItemDetails("Part code: 64 - CPU Cooler\nManufacturer: Scythe\nDescription: Mugen 5 Rev.B CPU Air Cooler\nPrice: 49.99\nQuantity: 444\n\nLocated in warehouse section: 5,6")'>Part: 64<br />Qty: 444 5,6</div>
+<div class='grid-item' data-coordinate='5,7'></div>
+<div class='grid-item with-content' data-coordinate='5,8' onClick='showItemDetails("Part code: 127 - Random Access Memory\nManufacturer: Corsair\nDescription: Dominator Platinum RGB 32GB (2 x 16GB) DDR4-3200 Memory\nPrice: 189.99\nQuantity: 119\n\nLocated in warehouse section: 5,8")'>Part: 127<br />Qty: 119 5,8</div>
+<div class='grid-item' data-coordinate='5,9'></div>
+<div class='grid-item with-content' data-coordinate='5,10' onClick='showItemDetails("Part code: 206 - Peripheral\nManufacturer: Microsoft\nDescription: Keyboard Model 130030\nPrice: 96.90\nQuantity: 463\n\nLocated in warehouse section: 5,10")'>Part: 206<br />Qty: 463 5,10</div>
+<div class='grid-item with-content' data-coordinate='5,11' onClick='showItemDetails("Part code: 12 - Motherboard\nManufacturer: Gigabyte\nDescription: Z390 UD, Intel Z390, S 1151\nPrice: 129.99\nQuantity: 93\n\nLocated in warehouse section: 5,11")'>Part: 12<br />Qty: 93 5,11</div>
+<div class='grid-item with-content' data-coordinate='5,12' onClick='showItemDetails("Part code: 68 - CPU Cooler\nManufacturer: Thermalright\nDescription: Silver Arrow IB-E Extreme Rev. B\nPrice: 89.99\nQuantity: 170\n\nLocated in warehouse section: 5,12")'>Part: 68<br />Qty: 170 5,12</div>
+<div class='grid-item' data-coordinate='5,13'></div>
+<div class='grid-item' data-coordinate='5,14'></div>
+<div class='grid-item with-content' data-coordinate='5,15' onClick='showItemDetails("Part code: 173 - Video Card\nManufacturer: Gigabyte\nDescription: GeForce GTX 1660 Ti Windforce OC\nPrice: 279.99\nQuantity: 317\n\nLocated in warehouse section: 5,15")'>Part: 173<br />Qty: 317 5,15</div>
+<div class='grid-item with-content' data-coordinate='5,16' onClick='showItemDetails("Part code: 162 - Video Card\nManufacturer: ASUS\nDescription: ROG Strix GeForce RTX 3070\nPrice: 579.99\nQuantity: 157\n\nLocated in warehouse section: 5,16")'>Part: 162<br />Qty: 157 5,16</div>
+<div class='grid-item' data-coordinate='5,17'></div>
+<div class='grid-item with-content' data-coordinate='5,18' onClick='showItemDetails("Part code: 70 - Case Fan\nManufacturer: Corsair\nDescription: LL120 RGB 120mm Dual Light Loop RGB LED PWM Fan\nPrice: 34.99\nQuantity: 400\n\nLocated in warehouse section: 5,18")'>Part: 70<br />Qty: 400 5,18</div>
+<div class='grid-item' data-coordinate='5,19'></div>
+<div class='grid-item with-content' data-coordinate='5,20' onClick='showItemDetails("Part code: 107 - Power Supply\nManufacturer: EVGA\nDescription: 220-G3-0850-X1 Super Nova 850 G3 PSU\nPrice: 129.99\nQuantity: 295\n\nLocated in warehouse section: 5,20")'>Part: 107<br />Qty: 295 5,20</div>
+<div class='grid-item' data-coordinate='5,21'></div>
+<div class='grid-item' data-coordinate='5,22'></div>
+<div class='grid-item' data-coordinate='5,23'></div>
+<div class='grid-item with-content' data-coordinate='5,24' onClick='showItemDetails("Part code: 41 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3800XT Processor\nPrice: 399.99\nQuantity: 271\n\nLocated in warehouse section: 5,24")'>Part: 41<br />Qty: 271 5,24</div>
+<div class='grid-item with-content' data-coordinate='5,25' onClick='showItemDetails("Part code: 98 - Power Supply\nManufacturer: EVGA\nDescription: SuperNOVA 750 G3, 80 Plus Gold 750W, Fully Modular\nPrice: 119.99\nQuantity: 397\n\nLocated in warehouse section: 5,25")'>Part: 98<br />Qty: 397 5,25</div>
+<div class='grid-item with-content' data-coordinate='5,26' onClick='showItemDetails("Part code: 120 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-Force Vulcan Z 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 132\n\nLocated in warehouse section: 5,26")'>Part: 120<br />Qty: 132 5,26</div>
+<div class='grid-item with-content' data-coordinate='5,27' onClick='showItemDetails("Part code: 157 - Storage\nManufacturer: Seagate\nDescription: BarraCuda Pro 10TB Internal Hard Drive Performance HDD\nPrice: 319.99\nQuantity: 17\n\nLocated in warehouse section: 5,27")'>Part: 157<br />Qty: 17 5,27</div>
+<div class='grid-item' data-coordinate='5,28'></div>
+<div class='grid-item with-content' data-coordinate='5,29' onClick='showItemDetails("Part code: 16 - Motherboard\nManufacturer: ASUS\nDescription: TUF GAMING B550M-PLUS (WI-FI 6) Micro-ATX Motherboard\nPrice: 139.99\nQuantity: 229\n\nLocated in warehouse section: 5,29")'>Part: 16<br />Qty: 229 5,29</div>
+<div class='grid-item' data-coordinate='6,0'></div>
+<div class='grid-item' data-coordinate='6,1'></div>
+<div class='grid-item' data-coordinate='6,2'></div>
+<div class='grid-item with-content' data-coordinate='6,3' onClick='showItemDetails("Part code: 121 - Random Access Memory\nManufacturer: Patriot\nDescription: Viper Steel 8GB DDR4-3200 Memory\nPrice: 38.99\nQuantity: 293\n\nLocated in warehouse section: 6,3")'>Part: 121<br />Qty: 293 6,3</div>
+<div class='grid-item with-content' data-coordinate='6,4' onClick='showItemDetails("Part code: 182 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130006\nPrice: 169.41\nQuantity: 461\n\nLocated in warehouse section: 6,4")'>Part: 182<br />Qty: 461 6,4</div>
+<div class='grid-item with-content' data-coordinate='6,5' onClick='showItemDetails("Part code: 201 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130025\nPrice: 36.11\nQuantity: 141\n\nLocated in warehouse section: 6,5")'>Part: 201<br />Qty: 141 6,5</div>
+<div class='grid-item' data-coordinate='6,6'></div>
+<div class='grid-item' data-coordinate='6,7'></div>
+<div class='grid-item with-content' data-coordinate='6,8' onClick='showItemDetails("Part code: 72 - Case Fan\nManufacturer: be quiet!\nDescription: Silent Wings 3 140mm PWM High-Speed, BL071, Cooling Fan\nPrice: 25.90\nQuantity: 463\n\nLocated in warehouse section: 6,8")'>Part: 72<br />Qty: 463 6,8</div>
+<div class='grid-item' data-coordinate='6,9'></div>
+<div class='grid-item with-content' data-coordinate='6,10' onClick='showItemDetails("Part code: 138 - Sound Card\nManufacturer: ASUS\nDescription: Xonar DGX PCI Express 5.1-Channel Gaming Audio Card\nPrice: 89.99\nQuantity: 167\n\nLocated in warehouse section: 6,10")'>Part: 138<br />Qty: 167 6,10</div>
+<div class='grid-item with-content' data-coordinate='6,11' onClick='showItemDetails("Part code: 179 - Peripheral\nManufacturer: Logitech\nDescription: Webcam Model 130003\nPrice: 158.15\nQuantity: 106\n\nLocated in warehouse section: 6,11")'>Part: 179<br />Qty: 106 6,11</div>
+<div class='grid-item with-content' data-coordinate='6,12' onClick='showItemDetails("Part code: 22 - Motherboard\nManufacturer: ASUS\nDescription: PRIME Z490-P ATX Motherboard\nPrice: 149.99\nQuantity: 281\n\nLocated in warehouse section: 6,12")'>Part: 22<br />Qty: 281 6,12</div>
+<div class='grid-item' data-coordinate='6,13'></div>
+<div class='grid-item' data-coordinate='6,14'></div>
+<div class='grid-item with-content' data-coordinate='6,15' onClick='showItemDetails("Part code: 142 - Sound Card\nManufacturer: StarTech\nDescription: 7.1 USB Audio Adapter External Sound Card\nPrice: 29.99\nQuantity: 426\n\nLocated in warehouse section: 6,15")'>Part: 142<br />Qty: 426 6,15</div>
+<div class='grid-item with-content' data-coordinate='6,16' onClick='showItemDetails("Part code: 154 - Storage\nManufacturer: Samsung\nDescription: 870 QVO 1TB 2.5 Inch SATA III Internal SSD\nPrice: 109.99\nQuantity: 30\n\nLocated in warehouse section: 6,16")'>Part: 154<br />Qty: 30 6,16</div>
+<div class='grid-item' data-coordinate='6,17'></div>
+<div class='grid-item with-content' data-coordinate='6,18' onClick='showItemDetails("Part code: 33 - Processor\nManufacturer: AMD\nDescription: Ryzen Threadripper 3970 Processor\nPrice: 1899.99\nQuantity: 461\n\nLocated in warehouse section: 6,18")'>Part: 33<br />Qty: 461 6,18</div>
+<div class='grid-item with-content' data-coordinate='6,19' onClick='showItemDetails("Part code: 54 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-D15 CPU Cooler\nPrice: 89.90\nQuantity: 166\n\nLocated in warehouse section: 6,19")'>Part: 54<br />Qty: 166 6,19</div>
+<div class='grid-item with-content' data-coordinate='6,20' onClick='showItemDetails("Part code: 104 - Power Supply\nManufacturer: be quiet!\nDescription: Straight Power 11 850W Fully Modular 80+ Gold\nPrice: 139.99\nQuantity: 219\n\nLocated in warehouse section: 6,20")'>Part: 104<br />Qty: 219 6,20</div>
+<div class='grid-item' data-coordinate='6,21'></div>
+<div class='grid-item' data-coordinate='6,22'></div>
+<div class='grid-item with-content' data-coordinate='6,23' onClick='showItemDetails("Part code: 197 - Peripheral\nManufacturer: Canon\nDescription: Webcam Model 130021\nPrice: 223.67\nQuantity: 189\n\nLocated in warehouse section: 6,23")'>Part: 197<br />Qty: 189 6,23</div>
+<div class='grid-item with-content' data-coordinate='6,24' onClick='showItemDetails("Part code: 42 - Processor\nManufacturer: Intel\nDescription: Core i7-10700 Processor\nPrice: 339.99\nQuantity: 265\n\nLocated in warehouse section: 6,24")'>Part: 42<br />Qty: 265 6,24</div>
+<div class='grid-item' data-coordinate='6,25'></div>
+<div class='grid-item with-content' data-coordinate='6,26' onClick='showItemDetails("Part code: 100 - Power Supply\nManufacturer: ASUS\nDescription: ROG Strix 750 Fully Modular 80 Plus Gold PSU\nPrice: 159.99\nQuantity: 380\n\nLocated in warehouse section: 6,26")'>Part: 100<br />Qty: 380 6,26</div>
+<div class='grid-item with-content' data-coordinate='6,27' onClick='showItemDetails("Part code: 116 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance RGB Pro 16GB (2 x 8GB) DDR4-3600 PC4-28800\nPrice: 99.99\nQuantity: 48\n\nLocated in warehouse section: 6,27")'>Part: 116<br />Qty: 48 6,27</div>
+<div class='grid-item with-content' data-coordinate='6,28' onClick='showItemDetails("Part code: 163 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1660 SUPER VENTUS XS OC\nPrice: 239.99\nQuantity: 42\n\nLocated in warehouse section: 6,28")'>Part: 163<br />Qty: 42 6,28</div>
+<div class='grid-item' data-coordinate='6,29'></div>
+<div class='grid-item' data-coordinate='7,0'></div>
+<div class='grid-item' data-coordinate='7,1'></div>
+<div class='grid-item with-content' data-coordinate='7,2' onClick='showItemDetails("Part code: 62 - CPU Cooler\nManufacturer: Cooler Master\nDescription: MasterLiquid ML240L RGB V2\nPrice: 69.99\nQuantity: 129\n\nLocated in warehouse section: 7,2")'>Part: 62<br />Qty: 129 7,2</div>
+<div class='grid-item' data-coordinate='7,3'></div>
+<div class='grid-item' data-coordinate='7,4'></div>
+<div class='grid-item' data-coordinate='7,5'></div>
+<div class='grid-item' data-coordinate='7,6'></div>
+<div class='grid-item with-content' data-coordinate='7,7' onClick='showItemDetails("Part code: 20 - Motherboard\nManufacturer: Gigabyte\nDescription: A520I AC AM4 Mini-ITX Motherboard\nPrice: 84.99\nQuantity: 374\n\nLocated in warehouse section: 7,7")'>Part: 20<br />Qty: 374 7,7</div>
+<div class='grid-item with-content' data-coordinate='7,8' onClick='showItemDetails("Part code: 62 - CPU Cooler\nManufacturer: Cooler Master\nDescription: MasterLiquid ML240L RGB V2\nPrice: 69.99\nQuantity: 327\n\nLocated in warehouse section: 7,8")'>Part: 62<br />Qty: 327 7,8</div>
+<div class='grid-item with-content' data-coordinate='7,9' onClick='showItemDetails("Part code: 94 - Peripheral Card\nManufacturer: StarTech\nDescription: 2 Port PCI RS422/485 Serial Adapter Card with 161050 UART\nPrice: 69.99\nQuantity: 177\n\nLocated in warehouse section: 7,9")'>Part: 94<br />Qty: 177 7,9</div>
+<div class='grid-item with-content' data-coordinate='7,10' onClick='showItemDetails("Part code: 114 - Random Access Memory\nManufacturer: Kingston\nDescription: HyperX Fury 8GB (1 x 8GB) DDR4-2666 PC4-21300 Memory\nPrice: 36.99\nQuantity: 360\n\nLocated in warehouse section: 7,10")'>Part: 114<br />Qty: 360 7,10</div>
+<div class='grid-item with-content' data-coordinate='7,11' onClick='showItemDetails("Part code: 151 - Storage\nManufacturer: Seagate\nDescription: FireCuda 520 1TB Performance Internal Solid State Drive\nPrice: 149.99\nQuantity: 269\n\nLocated in warehouse section: 7,11")'>Part: 151<br />Qty: 269 7,11</div>
+<div class='grid-item with-content' data-coordinate='7,12' onClick='showItemDetails("Part code: 203 - Peripheral\nManufacturer: Microsoft\nDescription: Scanner Model 130027\nPrice: 89.99\nQuantity: 322\n\nLocated in warehouse section: 7,12")'>Part: 203<br />Qty: 322 7,12</div>
+<div class='grid-item with-content' data-coordinate='7,13' onClick='showItemDetails("Part code: 202 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130026\nPrice: 31.36\nQuantity: 297\n\nLocated in warehouse section: 7,13")'>Part: 202<br />Qty: 297 7,13</div>
+<div class='grid-item with-content' data-coordinate='7,14' onClick='showItemDetails("Part code: 65 - CPU Cooler\nManufacturer: Phanteks\nDescription: PH-TC14PE 5 x Ø\nPrice: 79.99\nQuantity: 44\n\nLocated in warehouse section: 7,14")'>Part: 65<br />Qty: 44 7,14</div>
+<div class='grid-item' data-coordinate='7,15'></div>
+<div class='grid-item' data-coordinate='7,16'></div>
+<div class='grid-item with-content' data-coordinate='7,17' onClick='showItemDetails("Part code: 148 - Storage\nManufacturer: Seagate\nDescription: BarraCuda 2TB Internal Hard Drive HDD – 3.5 Inch SATA 6Gb/s 5400 RPM\nPrice: 57.99\nQuantity: 436\n\nLocated in warehouse section: 7,17")'>Part: 148<br />Qty: 436 7,17</div>
+<div class='grid-item' data-coordinate='7,18'></div>
+<div class='grid-item with-content' data-coordinate='7,19' onClick='showItemDetails("Part code: 30 - Processor\nManufacturer: Intel\nDescription: Core i3-10100 Processor\nPrice: 114.99\nQuantity: 395\n\nLocated in warehouse section: 7,19")'>Part: 30<br />Qty: 395 7,19</div>
+<div class='grid-item' data-coordinate='7,20'></div>
+<div class='grid-item with-content' data-coordinate='7,21' onClick='showItemDetails("Part code: 97 - Power Supply\nManufacturer: Corsair\nDescription: RM850x 850 Watt 80 Plus Gold Certified Fully Modular PSU\nPrice: 134.99\nQuantity: 86\n\nLocated in warehouse section: 7,21")'>Part: 97<br />Qty: 86 7,21</div>
+<div class='grid-item' data-coordinate='7,22'></div>
+<div class='grid-item' data-coordinate='7,23'></div>
+<div class='grid-item with-content' data-coordinate='7,24' onClick='showItemDetails("Part code: 197 - Peripheral\nManufacturer: Canon\nDescription: Webcam Model 130021\nPrice: 223.67\nQuantity: 151\n\nLocated in warehouse section: 7,24")'>Part: 197<br />Qty: 151 7,24</div>
+<div class='grid-item with-content' data-coordinate='7,25' onClick='showItemDetails("Part code: 15 - Motherboard\nManufacturer: Gigabyte\nDescription: X570 GAMING X ATX Motherboard\nPrice: 159.99\nQuantity: 430\n\nLocated in warehouse section: 7,25")'>Part: 15<br />Qty: 430 7,25</div>
+<div class='grid-item with-content' data-coordinate='7,26' onClick='showItemDetails("Part code: 45 - PC Case\nManufacturer: NZXT\nDescription: H510 Compact ATX Mid-Tower Case\nPrice: 69.99\nQuantity: 226\n\nLocated in warehouse section: 7,26")'>Part: 45<br />Qty: 226 7,26</div>
+<div class='grid-item' data-coordinate='7,27'></div>
+<div class='grid-item with-content' data-coordinate='7,28' onClick='showItemDetails("Part code: 147 - Storage\nManufacturer: Western Digital\nDescription: Blue 1TB PC Hard Drive - 7200 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5"\nPrice: 44.99\nQuantity: 348\n\nLocated in warehouse section: 7,28")'>Part: 147<br />Qty: 348 7,28</div>
+<div class='grid-item' data-coordinate='7,29'></div>
+<div class='grid-item with-content' data-coordinate='8,0' onClick='showItemDetails("Part code: 166 - Video Card\nManufacturer: ASUS\nDescription: ROG Strix Radeon RX 580 O8G Gaming OC Edition\nPrice: 229.99\nQuantity: 395\n\nLocated in warehouse section: 8,0")'>Part: 166<br />Qty: 395 8,0</div>
+<div class='grid-item with-content' data-coordinate='8,1' onClick='showItemDetails("Part code: 193 - Peripheral\nManufacturer: HP\nDescription: Scanner Model 130017\nPrice: 270.22\nQuantity: 243\n\nLocated in warehouse section: 8,1")'>Part: 193<br />Qty: 243 8,1</div>
+<div class='grid-item' data-coordinate='8,2'></div>
+<div class='grid-item with-content' data-coordinate='8,3' onClick='showItemDetails("Part code: 62 - CPU Cooler\nManufacturer: Cooler Master\nDescription: MasterLiquid ML240L RGB V2\nPrice: 69.99\nQuantity: 60\n\nLocated in warehouse section: 8,3")'>Part: 62<br />Qty: 60 8,3</div>
+<div class='grid-item' data-coordinate='8,4'></div>
+<div class='grid-item' data-coordinate='8,5'></div>
+<div class='grid-item with-content' data-coordinate='8,6' onClick='showItemDetails("Part code: 196 - Peripheral\nManufacturer: Samsung\nDescription: Monitor Model 130020\nPrice: 124.39\nQuantity: 83\n\nLocated in warehouse section: 8,6")'>Part: 196<br />Qty: 83 8,6</div>
+<div class='grid-item with-content' data-coordinate='8,7' onClick='showItemDetails("Part code: 18 - Motherboard\nManufacturer: ASRock\nDescription: B450M Pro4 AM4 Micro-ATX Motherboard\nPrice: 74.99\nQuantity: 331\n\nLocated in warehouse section: 8,7")'>Part: 18<br />Qty: 331 8,7</div>
+<div class='grid-item with-content' data-coordinate='8,8' onClick='showItemDetails("Part code: 42 - Processor\nManufacturer: Intel\nDescription: Core i7-10700 Processor\nPrice: 339.99\nQuantity: 69\n\nLocated in warehouse section: 8,8")'>Part: 42<br />Qty: 69 8,8</div>
+<div class='grid-item with-content' data-coordinate='8,9' onClick='showItemDetails("Part code: 83 - Network Card\nManufacturer: ASUS\nDescription: PCE-AC88 4x4 802.11ac Wireless-AC3100 PCIE Adapter\nPrice: 104.99\nQuantity: 17\n\nLocated in warehouse section: 8,9")'>Part: 83<br />Qty: 17 8,9</div>
+<div class='grid-item' data-coordinate='8,10'></div>
+<div class='grid-item with-content' data-coordinate='8,11' onClick='showItemDetails("Part code: 157 - Storage\nManufacturer: Seagate\nDescription: BarraCuda Pro 10TB Internal Hard Drive Performance HDD\nPrice: 319.99\nQuantity: 309\n\nLocated in warehouse section: 8,11")'>Part: 157<br />Qty: 309 8,11</div>
+<div class='grid-item' data-coordinate='8,12'></div>
+<div class='grid-item with-content' data-coordinate='8,13' onClick='showItemDetails("Part code: 189 - Peripheral\nManufacturer: Canon\nDescription: Printer Model 130013\nPrice: 47.16\nQuantity: 132\n\nLocated in warehouse section: 8,13")'>Part: 189<br />Qty: 132 8,13</div>
+<div class='grid-item with-content' data-coordinate='8,14' onClick='showItemDetails("Part code: 23 - Motherboard\nManufacturer: Gigabyte\nDescription: Z490 GAMING X ATX Motherboard\nPrice: 179.99\nQuantity: 70\n\nLocated in warehouse section: 8,14")'>Part: 23<br />Qty: 70 8,14</div>
+<div class='grid-item' data-coordinate='8,15'></div>
+<div class='grid-item' data-coordinate='8,16'></div>
+<div class='grid-item with-content' data-coordinate='8,17' onClick='showItemDetails("Part code: 147 - Storage\nManufacturer: Western Digital\nDescription: Blue 1TB PC Hard Drive - 7200 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5"\nPrice: 44.99\nQuantity: 392\n\nLocated in warehouse section: 8,17")'>Part: 147<br />Qty: 392 8,17</div>
+<div class='grid-item with-content' data-coordinate='8,18' onClick='showItemDetails("Part code: 162 - Video Card\nManufacturer: ASUS\nDescription: ROG Strix GeForce RTX 3070\nPrice: 579.99\nQuantity: 39\n\nLocated in warehouse section: 8,18")'>Part: 162<br />Qty: 39 8,18</div>
+<div class='grid-item with-content' data-coordinate='8,19' onClick='showItemDetails("Part code: 197 - Peripheral\nManufacturer: Canon\nDescription: Webcam Model 130021\nPrice: 223.67\nQuantity: 427\n\nLocated in warehouse section: 8,19")'>Part: 197<br />Qty: 427 8,19</div>
+<div class='grid-item' data-coordinate='8,20'></div>
+<div class='grid-item with-content' data-coordinate='8,21' onClick='showItemDetails("Part code: 64 - CPU Cooler\nManufacturer: Scythe\nDescription: Mugen 5 Rev.B CPU Air Cooler\nPrice: 49.99\nQuantity: 200\n\nLocated in warehouse section: 8,21")'>Part: 64<br />Qty: 200 8,21</div>
+<div class='grid-item with-content' data-coordinate='8,22' onClick='showItemDetails("Part code: 93 - Peripheral Card\nManufacturer: Elgato\nDescription: Game Capture 4K60 Pro MK.2 - 4K60 HDR10 capture and passthrough\nPrice: 229.99\nQuantity: 31\n\nLocated in warehouse section: 8,22")'>Part: 93<br />Qty: 31 8,22</div>
+<div class='grid-item with-content' data-coordinate='8,23' onClick='showItemDetails("Part code: 112 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance LPX 16GB (2 x 8GB) DDR4-3200 PC4-25600 Memory\nPrice: 72.99\nQuantity: 200\n\nLocated in warehouse section: 8,23")'>Part: 112<br />Qty: 200 8,23</div>
+<div class='grid-item' data-coordinate='8,24'></div>
+<div class='grid-item' data-coordinate='8,25'></div>
+<div class='grid-item' data-coordinate='8,26'></div>
+<div class='grid-item' data-coordinate='8,27'></div>
+<div class='grid-item with-content' data-coordinate='8,28' onClick='showItemDetails("Part code: 90 - Peripheral Card\nManufacturer: ASUS\nDescription: XONAR SE 5.1 Channel 192kHz/24-bit Hi-Res 116dB SNR PCIe Gaming Sound Card\nPrice: 39.99\nQuantity: 170\n\nLocated in warehouse section: 8,28")'>Part: 90<br />Qty: 170 8,28</div>
+<div class='grid-item with-content' data-coordinate='8,29' onClick='showItemDetails("Part code: 108 - Power Supply\nManufacturer: Seasonic\nDescription: PRIME TX-1000, 1000W 80+ Titanium, Full Modular\nPrice: 259.99\nQuantity: 351\n\nLocated in warehouse section: 8,29")'>Part: 108<br />Qty: 351 8,29</div>
+<div class='grid-item' data-coordinate='9,0'></div>
+<div class='grid-item with-content' data-coordinate='9,1' onClick='showItemDetails("Part code: 163 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1660 SUPER VENTUS XS OC\nPrice: 239.99\nQuantity: 416\n\nLocated in warehouse section: 9,1")'>Part: 163<br />Qty: 416 9,1</div>
+<div class='grid-item with-content' data-coordinate='9,2' onClick='showItemDetails("Part code: 194 - Peripheral\nManufacturer: Epson\nDescription: Monitor Model 130018\nPrice: 244.50\nQuantity: 242\n\nLocated in warehouse section: 9,2")'>Part: 194<br />Qty: 242 9,2</div>
+<div class='grid-item with-content' data-coordinate='9,3' onClick='showItemDetails("Part code: 21 - Motherboard\nManufacturer: ASRock\nDescription: H410M-HDV/M.2 Micro-ATX Motherboard\nPrice: 59.99\nQuantity: 103\n\nLocated in warehouse section: 9,3")'>Part: 21<br />Qty: 103 9,3</div>
+<div class='grid-item with-content' data-coordinate='9,4' onClick='showItemDetails("Part code: 59 - CPU Cooler\nManufacturer: DEEPCOOL\nDescription: Gammaxx 400 CPU Air Cooler\nPrice: 24.99\nQuantity: 56\n\nLocated in warehouse section: 9,4")'>Part: 59<br />Qty: 56 9,4</div>
+<div class='grid-item' data-coordinate='9,5'></div>
+<div class='grid-item with-content' data-coordinate='9,6' onClick='showItemDetails("Part code: 148 - Storage\nManufacturer: Seagate\nDescription: BarraCuda 2TB Internal Hard Drive HDD – 3.5 Inch SATA 6Gb/s 5400 RPM\nPrice: 57.99\nQuantity: 461\n\nLocated in warehouse section: 9,6")'>Part: 148<br />Qty: 461 9,6</div>
+<div class='grid-item' data-coordinate='9,7'></div>
+<div class='grid-item' data-coordinate='9,8'></div>
+<div class='grid-item with-content' data-coordinate='9,9' onClick='showItemDetails("Part code: 14 - Motherboard\nManufacturer: ASRock\nDescription: Z490 Extreme4 ATX Motherboard\nPrice: 189.99\nQuantity: 205\n\nLocated in warehouse section: 9,9")'>Part: 14<br />Qty: 205 9,9</div>
+<div class='grid-item with-content' data-coordinate='9,10' onClick='showItemDetails("Part code: 66 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-U9B SE2\nPrice: 59.99\nQuantity: 255\n\nLocated in warehouse section: 9,10")'>Part: 66<br />Qty: 255 9,10</div>
+<div class='grid-item' data-coordinate='9,11'></div>
+<div class='grid-item with-content' data-coordinate='9,12' onClick='showItemDetails("Part code: 143 - Sound Card\nManufacturer: ASUS\nDescription: XONAR SE 5.1 Channel 192kHz/24-bit Hi-Res 116dB SNR PCIe Gaming Sound Card\nPrice: 39.99\nQuantity: 92\n\nLocated in warehouse section: 9,12")'>Part: 143<br />Qty: 92 9,12</div>
+<div class='grid-item with-content' data-coordinate='9,13' onClick='showItemDetails("Part code: 182 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130006\nPrice: 169.41\nQuantity: 10\n\nLocated in warehouse section: 9,13")'>Part: 182<br />Qty: 10 9,13</div>
+<div class='grid-item' data-coordinate='9,14'></div>
+<div class='grid-item with-content' data-coordinate='9,15' onClick='showItemDetails("Part code: 39 - Processor\nManufacturer: AMD\nDescription: Ryzen 5 5600X Processor\nPrice: 299.99\nQuantity: 207\n\nLocated in warehouse section: 9,15")'>Part: 39<br />Qty: 207 9,15</div>
+<div class='grid-item with-content' data-coordinate='9,16' onClick='showItemDetails("Part code: 82 - Network Card\nManufacturer: TP-Link\nDescription: Archer T6E AC1300 PCIe Wireless WiFi network Adapter Card\nPrice: 39.99\nQuantity: 156\n\nLocated in warehouse section: 9,16")'>Part: 82<br />Qty: 156 9,16</div>
+<div class='grid-item with-content' data-coordinate='9,17' onClick='showItemDetails("Part code: 78 - Case Fan\nManufacturer: ARCTIC\nDescription: P12 PWM PST CO - 120mm Dual Ball Bearing Low Noise PWM Fan\nPrice: 14.99\nQuantity: 93\n\nLocated in warehouse section: 9,17")'>Part: 78<br />Qty: 93 9,17</div>
+<div class='grid-item' data-coordinate='9,18'></div>
+<div class='grid-item with-content' data-coordinate='9,19' onClick='showItemDetails("Part code: 141 - Sound Card\nManufacturer: Creative Labs\nDescription: Sound Blaster ZxR\nPrice: 249.99\nQuantity: 261\n\nLocated in warehouse section: 9,19")'>Part: 141<br />Qty: 261 9,19</div>
+<div class='grid-item with-content' data-coordinate='9,20' onClick='showItemDetails("Part code: 205 - Peripheral\nManufacturer: Epson\nDescription: Scanner Model 130029\nPrice: 146.11\nQuantity: 474\n\nLocated in warehouse section: 9,20")'>Part: 205<br />Qty: 474 9,20</div>
+<div class='grid-item' data-coordinate='9,21'></div>
+<div class='grid-item with-content' data-coordinate='9,22' onClick='showItemDetails("Part code: 51 - PC Case\nManufacturer: Thermaltake\nDescription: V250 TG ARGB Mid-Tower Case\nPrice: 74.99\nQuantity: 12\n\nLocated in warehouse section: 9,22")'>Part: 51<br />Qty: 12 9,22</div>
+<div class='grid-item with-content' data-coordinate='9,23' onClick='showItemDetails("Part code: 75 - Case Fan\nManufacturer: Cooler Master\nDescription: MasterFan MF120R ARGB 120mm 3-in-1 kit\nPrice: 64.99\nQuantity: 248\n\nLocated in warehouse section: 9,23")'>Part: 75<br />Qty: 248 9,23</div>
+<div class='grid-item with-content' data-coordinate='9,24' onClick='showItemDetails("Part code: 120 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-Force Vulcan Z 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 247\n\nLocated in warehouse section: 9,24")'>Part: 120<br />Qty: 247 9,24</div>
+<div class='grid-item' data-coordinate='9,25'></div>
+<div class='grid-item' data-coordinate='9,26'></div>
+<div class='grid-item' data-coordinate='9,27'></div>
+<div class='grid-item with-content' data-coordinate='9,28' onClick='showItemDetails("Part code: 71 - Case Fan\nManufacturer: Noctua\nDescription: NF-A12x25 PWM chromax.black.swap, Premium Quiet Fan, 4-Pin\nPrice: 29.90\nQuantity: 409\n\nLocated in warehouse section: 9,28")'>Part: 71<br />Qty: 409 9,28</div>
+<div class='grid-item with-content' data-coordinate='9,29' onClick='showItemDetails("Part code: 122 - Random Access Memory\nManufacturer: Crucial\nDescription: Ballistix RGB 32GB (2 x 16GB) DDR4-3200 Memory\nPrice: 149.99\nQuantity: 75\n\nLocated in warehouse section: 9,29")'>Part: 122<br />Qty: 75 9,29</div>
+<div class='grid-item' data-coordinate='10,0'></div>
+<div class='grid-item' data-coordinate='10,1'></div>
+<div class='grid-item' data-coordinate='10,2'></div>
+<div class='grid-item with-content' data-coordinate='10,3' onClick='showItemDetails("Part code: 206 - Peripheral\nManufacturer: Microsoft\nDescription: Keyboard Model 130030\nPrice: 96.90\nQuantity: 329\n\nLocated in warehouse section: 10,3")'>Part: 206<br />Qty: 329 10,3</div>
+<div class='grid-item' data-coordinate='10,4'></div>
+<div class='grid-item with-content' data-coordinate='10,5' onClick='showItemDetails("Part code: 84 - Network Card\nManufacturer: TP-Link\nDescription: AC1200 PCIe WiFi Card for PC\nPrice: 29.99\nQuantity: 240\n\nLocated in warehouse section: 10,5")'>Part: 84<br />Qty: 240 10,5</div>
+<div class='grid-item' data-coordinate='10,6'></div>
+<div class='grid-item' data-coordinate='10,7'></div>
+<div class='grid-item with-content' data-coordinate='10,8' onClick='showItemDetails("Part code: 163 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1660 SUPER VENTUS XS OC\nPrice: 239.99\nQuantity: 63\n\nLocated in warehouse section: 10,8")'>Part: 163<br />Qty: 63 10,8</div>
+<div class='grid-item with-content' data-coordinate='10,9' onClick='showItemDetails("Part code: 9 - Motherboard\nManufacturer: ASRock\nDescription: B560M-ITX/ac Intel Socket 1200\nPrice: 119.99\nQuantity: 68\n\nLocated in warehouse section: 10,9")'>Part: 9<br />Qty: 68 10,9</div>
+<div class='grid-item with-content' data-coordinate='10,10' onClick='showItemDetails("Part code: 42 - Processor\nManufacturer: Intel\nDescription: Core i7-10700 Processor\nPrice: 339.99\nQuantity: 452\n\nLocated in warehouse section: 10,10")'>Part: 42<br />Qty: 452 10,10</div>
+<div class='grid-item' data-coordinate='10,11'></div>
+<div class='grid-item' data-coordinate='10,12'></div>
+<div class='grid-item' data-coordinate='10,13'></div>
+<div class='grid-item with-content' data-coordinate='10,14' onClick='showItemDetails("Part code: 159 - Video Card\nManufacturer: MSI\nDescription: GeForce RTX 3060 Ti Gaming X Trio\nPrice: 479.99\nQuantity: 209\n\nLocated in warehouse section: 10,14")'>Part: 159<br />Qty: 209 10,14</div>
+<div class='grid-item with-content' data-coordinate='10,15' onClick='showItemDetails("Part code: 12 - Motherboard\nManufacturer: Gigabyte\nDescription: Z390 UD, Intel Z390, S 1151\nPrice: 129.99\nQuantity: 372\n\nLocated in warehouse section: 10,15")'>Part: 12<br />Qty: 372 10,15</div>
+<div class='grid-item with-content' data-coordinate='10,16' onClick='showItemDetails("Part code: 57 - CPU Cooler\nManufacturer: NZXT\nDescription: Kraken X73 RGB 360mm Liquid Cooler\nPrice: 179.99\nQuantity: 324\n\nLocated in warehouse section: 10,16")'>Part: 57<br />Qty: 324 10,16</div>
+<div class='grid-item' data-coordinate='10,17'></div>
+<div class='grid-item with-content' data-coordinate='10,18' onClick='showItemDetails("Part code: 108 - Power Supply\nManufacturer: Seasonic\nDescription: PRIME TX-1000, 1000W 80+ Titanium, Full Modular\nPrice: 259.99\nQuantity: 382\n\nLocated in warehouse section: 10,18")'>Part: 108<br />Qty: 382 10,18</div>
+<div class='grid-item' data-coordinate='10,19'></div>
+<div class='grid-item' data-coordinate='10,20'></div>
+<div class='grid-item with-content' data-coordinate='10,21' onClick='showItemDetails("Part code: 22 - Motherboard\nManufacturer: ASUS\nDescription: PRIME Z490-P ATX Motherboard\nPrice: 149.99\nQuantity: 180\n\nLocated in warehouse section: 10,21")'>Part: 22<br />Qty: 180 10,21</div>
+<div class='grid-item with-content' data-coordinate='10,22' onClick='showItemDetails("Part code: 34 - Processor\nManufacturer: Intel\nDescription: Core i7-9700 Processor\nPrice: 299.99\nQuantity: 301\n\nLocated in warehouse section: 10,22")'>Part: 34<br />Qty: 301 10,22</div>
+<div class='grid-item with-content' data-coordinate='10,23' onClick='showItemDetails("Part code: 81 - Case Fan\nManufacturer: EKWB\nDescription: EK-Vardar EVO 120ER RGB (500-2200 rpm)\nPrice: 29.99\nQuantity: 298\n\nLocated in warehouse section: 10,23")'>Part: 81<br />Qty: 298 10,23</div>
+<div class='grid-item with-content' data-coordinate='10,24' onClick='showItemDetails("Part code: 99 - Power Supply\nManufacturer: Seasonic\nDescription: FOCUS GX-750, 750W 80+ Gold, Full-Modular\nPrice: 109.99\nQuantity: 475\n\nLocated in warehouse section: 10,24")'>Part: 99<br />Qty: 475 10,24</div>
+<div class='grid-item with-content' data-coordinate='10,25' onClick='showItemDetails("Part code: 159 - Video Card\nManufacturer: MSI\nDescription: GeForce RTX 3060 Ti Gaming X Trio\nPrice: 479.99\nQuantity: 127\n\nLocated in warehouse section: 10,25")'>Part: 159<br />Qty: 127 10,25</div>
+<div class='grid-item with-content' data-coordinate='10,26' onClick='showItemDetails("Part code: 183 - Peripheral\nManufacturer: Dell\nDescription: Scanner Model 130007\nPrice: 240.71\nQuantity: 394\n\nLocated in warehouse section: 10,26")'>Part: 183<br />Qty: 394 10,26</div>
+<div class='grid-item with-content' data-coordinate='10,27' onClick='showItemDetails("Part code: 17 - Motherboard\nManufacturer: Gigabyte\nDescription: B450 I AORUS PRO WIFI Mini-ITX Motherboard\nPrice: 119.99\nQuantity: 301\n\nLocated in warehouse section: 10,27")'>Part: 17<br />Qty: 301 10,27</div>
+<div class='grid-item with-content' data-coordinate='10,28' onClick='showItemDetails("Part code: 34 - Processor\nManufacturer: Intel\nDescription: Core i7-9700 Processor\nPrice: 299.99\nQuantity: 466\n\nLocated in warehouse section: 10,28")'>Part: 34<br />Qty: 466 10,28</div>
+<div class='grid-item' data-coordinate='10,29'></div>
+<div class='grid-item' data-coordinate='11,0'></div>
+<div class='grid-item' data-coordinate='11,1'></div>
+<div class='grid-item' data-coordinate='11,2'></div>
+<div class='grid-item' data-coordinate='11,3'></div>
+<div class='grid-item with-content' data-coordinate='11,4' onClick='showItemDetails("Part code: 4 - Motherboard\nManufacturer: Gigabyte\nDescription: Aorus Elite B450 AM4 ATX Motherboard\nPrice: 109.99\nQuantity: 309\n\nLocated in warehouse section: 11,4")'>Part: 4<br />Qty: 309 11,4</div>
+<div class='grid-item' data-coordinate='11,5'></div>
+<div class='grid-item with-content' data-coordinate='11,6' onClick='showItemDetails("Part code: 79 - Case Fan\nManufacturer: Scythe\nDescription: Kaze Flex 120 RGB PWM\nPrice: 17.99\nQuantity: 254\n\nLocated in warehouse section: 11,6")'>Part: 79<br />Qty: 254 11,6</div>
+<div class='grid-item with-content' data-coordinate='11,7' onClick='showItemDetails("Part code: 119 - Random Access Memory\nManufacturer: ADATA\nDescription: XPG Z1 16GB (2 x 8GB) DDR4-3000 Memory\nPrice: 64.99\nQuantity: 52\n\nLocated in warehouse section: 11,7")'>Part: 119<br />Qty: 52 11,7</div>
+<div class='grid-item' data-coordinate='11,8'></div>
+<div class='grid-item with-content' data-coordinate='11,9' onClick='showItemDetails("Part code: 191 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130015\nPrice: 60.33\nQuantity: 333\n\nLocated in warehouse section: 11,9")'>Part: 191<br />Qty: 333 11,9</div>
+<div class='grid-item with-content' data-coordinate='11,10' onClick='showItemDetails("Part code: 17 - Motherboard\nManufacturer: Gigabyte\nDescription: B450 I AORUS PRO WIFI Mini-ITX Motherboard\nPrice: 119.99\nQuantity: 158\n\nLocated in warehouse section: 11,10")'>Part: 17<br />Qty: 158 11,10</div>
+<div class='grid-item' data-coordinate='11,11'></div>
+<div class='grid-item with-content' data-coordinate='11,12' onClick='showItemDetails("Part code: 67 - CPU Cooler\nManufacturer: ASUS\nDescription: ROG Strix LC 240 RGB White Edition\nPrice: 149.99\nQuantity: 193\n\nLocated in warehouse section: 11,12")'>Part: 67<br />Qty: 193 11,12</div>
+<div class='grid-item with-content' data-coordinate='11,13' onClick='showItemDetails("Part code: 109 - Power Supply\nManufacturer: Thermaltake\nDescription: Toughpower PF1 ARGB 1200W 80+ Platinum\nPrice: 259.99\nQuantity: 44\n\nLocated in warehouse section: 11,13")'>Part: 109<br />Qty: 44 11,13</div>
+<div class='grid-item with-content' data-coordinate='11,14' onClick='showItemDetails("Part code: 139 - Sound Card\nManufacturer: Creative Labs\nDescription: Sound Blaster X-Fi Surround 5.1 Pro v3\nPrice: 69.99\nQuantity: 451\n\nLocated in warehouse section: 11,14")'>Part: 139<br />Qty: 451 11,14</div>
+<div class='grid-item' data-coordinate='11,15'></div>
+<div class='grid-item with-content' data-coordinate='11,16' onClick='showItemDetails("Part code: 17 - Motherboard\nManufacturer: Gigabyte\nDescription: B450 I AORUS PRO WIFI Mini-ITX Motherboard\nPrice: 119.99\nQuantity: 350\n\nLocated in warehouse section: 11,16")'>Part: 17<br />Qty: 350 11,16</div>
+<div class='grid-item with-content' data-coordinate='11,17' onClick='showItemDetails("Part code: 40 - Processor\nManufacturer: Intel\nDescription: Core i3-10320 Processor\nPrice: 149.99\nQuantity: 107\n\nLocated in warehouse section: 11,17")'>Part: 40<br />Qty: 107 11,17</div>
+<div class='grid-item' data-coordinate='11,18'></div>
+<div class='grid-item with-content' data-coordinate='11,19' onClick='showItemDetails("Part code: 95 - Peripheral Card\nManufacturer: Creative\nDescription: Sound Blaster ZxR PCIe Audiophile Grade Gaming Sound Card\nPrice: 179.99\nQuantity: 190\n\nLocated in warehouse section: 11,19")'>Part: 95<br />Qty: 190 11,19</div>
+<div class='grid-item' data-coordinate='11,20'></div>
+<div class='grid-item' data-coordinate='11,21'></div>
+<div class='grid-item' data-coordinate='11,22'></div>
+<div class='grid-item' data-coordinate='11,23'></div>
+<div class='grid-item with-content' data-coordinate='11,24' onClick='showItemDetails("Part code: 60 - CPU Cooler\nManufacturer: ARCTIC\nDescription: Freezer 34 eSports DUO\nPrice: 39.99\nQuantity: 27\n\nLocated in warehouse section: 11,24")'>Part: 60<br />Qty: 27 11,24</div>
+<div class='grid-item with-content' data-coordinate='11,25' onClick='showItemDetails("Part code: 120 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-Force Vulcan Z 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 160\n\nLocated in warehouse section: 11,25")'>Part: 120<br />Qty: 160 11,25</div>
+<div class='grid-item' data-coordinate='11,26'></div>
+<div class='grid-item' data-coordinate='11,27'></div>
+<div class='grid-item' data-coordinate='11,28'></div>
+<div class='grid-item with-content' data-coordinate='11,29' onClick='showItemDetails("Part code: 30 - Processor\nManufacturer: Intel\nDescription: Core i3-10100 Processor\nPrice: 114.99\nQuantity: 413\n\nLocated in warehouse section: 11,29")'>Part: 30<br />Qty: 413 11,29</div>
+<div class='grid-item' data-coordinate='12,0'></div>
+<div class='grid-item' data-coordinate='12,1'></div>
+<div class='grid-item with-content' data-coordinate='12,2' onClick='showItemDetails("Part code: 109 - Power Supply\nManufacturer: Thermaltake\nDescription: Toughpower PF1 ARGB 1200W 80+ Platinum\nPrice: 259.99\nQuantity: 189\n\nLocated in warehouse section: 12,2")'>Part: 109<br />Qty: 189 12,2</div>
+<div class='grid-item with-content' data-coordinate='12,3' onClick='showItemDetails("Part code: 130 - Random Access Memory\nManufacturer: ADATA\nDescription: XPG GAMMIX D30 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 427\n\nLocated in warehouse section: 12,3")'>Part: 130<br />Qty: 427 12,3</div>
+<div class='grid-item with-content' data-coordinate='12,4' onClick='showItemDetails("Part code: 194 - Peripheral\nManufacturer: Epson\nDescription: Monitor Model 130018\nPrice: 244.50\nQuantity: 132\n\nLocated in warehouse section: 12,4")'>Part: 194<br />Qty: 132 12,4</div>
+<div class='grid-item with-content' data-coordinate='12,5' onClick='showItemDetails("Part code: 20 - Motherboard\nManufacturer: Gigabyte\nDescription: A520I AC AM4 Mini-ITX Motherboard\nPrice: 84.99\nQuantity: 453\n\nLocated in warehouse section: 12,5")'>Part: 20<br />Qty: 453 12,5</div>
+<div class='grid-item with-content' data-coordinate='12,6' onClick='showItemDetails("Part code: 59 - CPU Cooler\nManufacturer: DEEPCOOL\nDescription: Gammaxx 400 CPU Air Cooler\nPrice: 24.99\nQuantity: 381\n\nLocated in warehouse section: 12,6")'>Part: 59<br />Qty: 381 12,6</div>
+<div class='grid-item' data-coordinate='12,7'></div>
+<div class='grid-item with-content' data-coordinate='12,8' onClick='showItemDetails("Part code: 126 - Random Access Memory\nManufacturer: Patriot\nDescription: Signature Premium 16GB (2 x 8GB) DDR4-2666 Memory\nPrice: 72.99\nQuantity: 95\n\nLocated in warehouse section: 12,8")'>Part: 126<br />Qty: 95 12,8</div>
+<div class='grid-item with-content' data-coordinate='12,9' onClick='showItemDetails("Part code: 163 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1660 SUPER VENTUS XS OC\nPrice: 239.99\nQuantity: 472\n\nLocated in warehouse section: 12,9")'>Part: 163<br />Qty: 472 12,9</div>
+<div class='grid-item with-content' data-coordinate='12,10' onClick='showItemDetails("Part code: 187 - Peripheral\nManufacturer: Canon\nDescription: Monitor Model 130011\nPrice: 251.56\nQuantity: 250\n\nLocated in warehouse section: 12,10")'>Part: 187<br />Qty: 250 12,10</div>
+<div class='grid-item' data-coordinate='12,11'></div>
+<div class='grid-item with-content' data-coordinate='12,12' onClick='showItemDetails("Part code: 27 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3700X Processor\nPrice: 324.99\nQuantity: 210\n\nLocated in warehouse section: 12,12")'>Part: 27<br />Qty: 210 12,12</div>
+<div class='grid-item' data-coordinate='12,13'></div>
+<div class='grid-item' data-coordinate='12,14'></div>
+<div class='grid-item with-content' data-coordinate='12,15' onClick='showItemDetails("Part code: 167 - Video Card\nManufacturer: MSI\nDescription: Radeon RX 5700 XT GAMING X\nPrice: 399.99\nQuantity: 228\n\nLocated in warehouse section: 12,15")'>Part: 167<br />Qty: 228 12,15</div>
+<div class='grid-item with-content' data-coordinate='12,16' onClick='showItemDetails("Part code: 167 - Video Card\nManufacturer: MSI\nDescription: Radeon RX 5700 XT GAMING X\nPrice: 399.99\nQuantity: 224\n\nLocated in warehouse section: 12,16")'>Part: 167<br />Qty: 224 12,16</div>
+<div class='grid-item' data-coordinate='12,17'></div>
+<div class='grid-item' data-coordinate='12,18'></div>
+<div class='grid-item with-content' data-coordinate='12,19' onClick='showItemDetails("Part code: 69 - CPU Cooler\nManufacturer: ZALMAN\nDescription: CNPS10X OPTIMA II\nPrice: 29.99\nQuantity: 375\n\nLocated in warehouse section: 12,19")'>Part: 69<br />Qty: 375 12,19</div>
+<div class='grid-item with-content' data-coordinate='12,20' onClick='showItemDetails("Part code: 116 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance RGB Pro 16GB (2 x 8GB) DDR4-3600 PC4-28800\nPrice: 99.99\nQuantity: 378\n\nLocated in warehouse section: 12,20")'>Part: 116<br />Qty: 378 12,20</div>
+<div class='grid-item' data-coordinate='12,21'></div>
+<div class='grid-item' data-coordinate='12,22'></div>
+<div class='grid-item with-content' data-coordinate='12,23' onClick='showItemDetails("Part code: 193 - Peripheral\nManufacturer: HP\nDescription: Scanner Model 130017\nPrice: 270.22\nQuantity: 183\n\nLocated in warehouse section: 12,23")'>Part: 193<br />Qty: 183 12,23</div>
+<div class='grid-item with-content' data-coordinate='12,24' onClick='showItemDetails("Part code: 52 - PC Case\nManufacturer: Be Quiet!\nDescription: Pure Base 500DX ATX Case\nPrice: 99.99\nQuantity: 405\n\nLocated in warehouse section: 12,24")'>Part: 52<br />Qty: 405 12,24</div>
+<div class='grid-item' data-coordinate='12,25'></div>
+<div class='grid-item' data-coordinate='12,26'></div>
+<div class='grid-item with-content' data-coordinate='12,27' onClick='showItemDetails("Part code: 146 - Storage\nManufacturer: Crucial\nDescription: MX500 1TB 3D NAND SATA 2.5 Inch Internal SSD\nPrice: 104.99\nQuantity: 388\n\nLocated in warehouse section: 12,27")'>Part: 146<br />Qty: 388 12,27</div>
+<div class='grid-item' data-coordinate='12,28'></div>
+<div class='grid-item with-content' data-coordinate='12,29' onClick='showItemDetails("Part code: 5 - Motherboard\nManufacturer: ASUS\nDescription: TUF Gaming X570-Plus ATX Motherboard\nPrice: 189.00\nQuantity: 103\n\nLocated in warehouse section: 12,29")'>Part: 5<br />Qty: 103 12,29</div>
+<div class='grid-item with-content' data-coordinate='13,0' onClick='showItemDetails("Part code: 4 - Motherboard\nManufacturer: Gigabyte\nDescription: Aorus Elite B450 AM4 ATX Motherboard\nPrice: 109.99\nQuantity: 29\n\nLocated in warehouse section: 13,0")'>Part: 4<br />Qty: 29 13,0</div>
+<div class='grid-item with-content' data-coordinate='13,1' onClick='showItemDetails("Part code: 51 - PC Case\nManufacturer: Thermaltake\nDescription: V250 TG ARGB Mid-Tower Case\nPrice: 74.99\nQuantity: 42\n\nLocated in warehouse section: 13,1")'>Part: 51<br />Qty: 42 13,1</div>
+<div class='grid-item' data-coordinate='13,2'></div>
+<div class='grid-item' data-coordinate='13,3'></div>
+<div class='grid-item' data-coordinate='13,4'></div>
+<div class='grid-item with-content' data-coordinate='13,5' onClick='showItemDetails("Part code: 195 - Peripheral\nManufacturer: Philips\nDescription: Scanner Model 130019\nPrice: 57.58\nQuantity: 87\n\nLocated in warehouse section: 13,5")'>Part: 195<br />Qty: 87 13,5</div>
+<div class='grid-item with-content' data-coordinate='13,6' onClick='showItemDetails("Part code: 201 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130025\nPrice: 36.11\nQuantity: 123\n\nLocated in warehouse section: 13,6")'>Part: 201<br />Qty: 123 13,6</div>
+<div class='grid-item' data-coordinate='13,7'></div>
+<div class='grid-item with-content' data-coordinate='13,8' onClick='showItemDetails("Part code: 82 - Network Card\nManufacturer: TP-Link\nDescription: Archer T6E AC1300 PCIe Wireless WiFi network Adapter Card\nPrice: 39.99\nQuantity: 51\n\nLocated in warehouse section: 13,8")'>Part: 82<br />Qty: 51 13,8</div>
+<div class='grid-item with-content' data-coordinate='13,9' onClick='showItemDetails("Part code: 138 - Sound Card\nManufacturer: ASUS\nDescription: Xonar DGX PCI Express 5.1-Channel Gaming Audio Card\nPrice: 89.99\nQuantity: 169\n\nLocated in warehouse section: 13,9")'>Part: 138<br />Qty: 169 13,9</div>
+<div class='grid-item' data-coordinate='13,10'></div>
+<div class='grid-item' data-coordinate='13,11'></div>
+<div class='grid-item' data-coordinate='13,12'></div>
+<div class='grid-item with-content' data-coordinate='13,13' onClick='showItemDetails("Part code: 40 - Processor\nManufacturer: Intel\nDescription: Core i3-10320 Processor\nPrice: 149.99\nQuantity: 299\n\nLocated in warehouse section: 13,13")'>Part: 40<br />Qty: 299 13,13</div>
+<div class='grid-item with-content' data-coordinate='13,14' onClick='showItemDetails("Part code: 69 - CPU Cooler\nManufacturer: ZALMAN\nDescription: CNPS10X OPTIMA II\nPrice: 29.99\nQuantity: 127\n\nLocated in warehouse section: 13,14")'>Part: 69<br />Qty: 127 13,14</div>
+<div class='grid-item' data-coordinate='13,15'></div>
+<div class='grid-item with-content' data-coordinate='13,16' onClick='showItemDetails("Part code: 126 - Random Access Memory\nManufacturer: Patriot\nDescription: Signature Premium 16GB (2 x 8GB) DDR4-2666 Memory\nPrice: 72.99\nQuantity: 223\n\nLocated in warehouse section: 13,16")'>Part: 126<br />Qty: 223 13,16</div>
+<div class='grid-item' data-coordinate='13,17'></div>
+<div class='grid-item' data-coordinate='13,18'></div>
+<div class='grid-item' data-coordinate='13,19'></div>
+<div class='grid-item with-content' data-coordinate='13,20' onClick='showItemDetails("Part code: 104 - Power Supply\nManufacturer: be quiet!\nDescription: Straight Power 11 850W Fully Modular 80+ Gold\nPrice: 139.99\nQuantity: 221\n\nLocated in warehouse section: 13,20")'>Part: 104<br />Qty: 221 13,20</div>
+<div class='grid-item' data-coordinate='13,21'></div>
+<div class='grid-item' data-coordinate='13,22'></div>
+<div class='grid-item' data-coordinate='13,23'></div>
+<div class='grid-item' data-coordinate='13,24'></div>
+<div class='grid-item with-content' data-coordinate='13,25' onClick='showItemDetails("Part code: 38 - Processor\nManufacturer: Intel\nDescription: Core i5-10500 Processor\nPrice: 197.99\nQuantity: 189\n\nLocated in warehouse section: 13,25")'>Part: 38<br />Qty: 189 13,25</div>
+<div class='grid-item' data-coordinate='13,26'></div>
+<div class='grid-item' data-coordinate='13,27'></div>
+<div class='grid-item with-content' data-coordinate='13,28' onClick='showItemDetails("Part code: 172 - Video Card\nManufacturer: ZOTAC\nDescription: Gaming GeForce GTX 1660 Twin Fan\nPrice: 219.99\nQuantity: 146\n\nLocated in warehouse section: 13,28")'>Part: 172<br />Qty: 146 13,28</div>
+<div class='grid-item with-content' data-coordinate='13,29' onClick='showItemDetails("Part code: 169 - Video Card\nManufacturer: Gigabyte\nDescription: GeForce RTX 2070 Super Windforce OC\nPrice: 509.99\nQuantity: 75\n\nLocated in warehouse section: 13,29")'>Part: 169<br />Qty: 75 13,29</div>
+<div class='grid-item with-content' data-coordinate='14,0' onClick='showItemDetails("Part code: 178 - Peripheral\nManufacturer: HP\nDescription: HP Monitor Model 130002\nPrice: 49.71\nQuantity: 135\n\nLocated in warehouse section: 14,0")'>Part: 178<br />Qty: 135 14,0</div>
+<div class='grid-item with-content' data-coordinate='14,1' onClick='showItemDetails("Part code: 20 - Motherboard\nManufacturer: Gigabyte\nDescription: A520I AC AM4 Mini-ITX Motherboard\nPrice: 84.99\nQuantity: 162\n\nLocated in warehouse section: 14,1")'>Part: 20<br />Qty: 162 14,1</div>
+<div class='grid-item with-content' data-coordinate='14,2' onClick='showItemDetails("Part code: 55 - CPU Cooler\nManufacturer: be quiet!\nDescription: Dark Rock Pro 4 CPU Cooler\nPrice: 89.90\nQuantity: 47\n\nLocated in warehouse section: 14,2")'>Part: 55<br />Qty: 47 14,2</div>
+<div class='grid-item' data-coordinate='14,3'></div>
+<div class='grid-item with-content' data-coordinate='14,4' onClick='showItemDetails("Part code: 107 - Power Supply\nManufacturer: EVGA\nDescription: 220-G3-0850-X1 Super Nova 850 G3 PSU\nPrice: 129.99\nQuantity: 86\n\nLocated in warehouse section: 14,4")'>Part: 107<br />Qty: 86 14,4</div>
+<div class='grid-item' data-coordinate='14,5'></div>
+<div class='grid-item with-content' data-coordinate='14,6' onClick='showItemDetails("Part code: 202 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130026\nPrice: 31.36\nQuantity: 106\n\nLocated in warehouse section: 14,6")'>Part: 202<br />Qty: 106 14,6</div>
+<div class='grid-item' data-coordinate='14,7'></div>
+<div class='grid-item' data-coordinate='14,8'></div>
+<div class='grid-item' data-coordinate='14,9'></div>
+<div class='grid-item with-content' data-coordinate='14,10' onClick='showItemDetails("Part code: 115 - Random Access Memory\nManufacturer: Crucial\nDescription: Ballistix 64GB (2 x 32GB) DDR4-3200 Memory\nPrice: 279.99\nQuantity: 353\n\nLocated in warehouse section: 14,10")'>Part: 115<br />Qty: 353 14,10</div>
+<div class='grid-item with-content' data-coordinate='14,11' onClick='showItemDetails("Part code: 138 - Sound Card\nManufacturer: ASUS\nDescription: Xonar DGX PCI Express 5.1-Channel Gaming Audio Card\nPrice: 89.99\nQuantity: 103\n\nLocated in warehouse section: 14,11")'>Part: 138<br />Qty: 103 14,11</div>
+<div class='grid-item' data-coordinate='14,12'></div>
+<div class='grid-item' data-coordinate='14,13'></div>
+<div class='grid-item with-content' data-coordinate='14,14' onClick='showItemDetails("Part code: 41 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3800XT Processor\nPrice: 399.99\nQuantity: 266\n\nLocated in warehouse section: 14,14")'>Part: 41<br />Qty: 266 14,14</div>
+<div class='grid-item with-content' data-coordinate='14,15' onClick='showItemDetails("Part code: 89 - Network Card\nManufacturer: D-Link\nDescription: DWA-582 Wireless AC1200 Dual Band PCI Express Adapter\nPrice: 39.99\nQuantity: 302\n\nLocated in warehouse section: 14,15")'>Part: 89<br />Qty: 302 14,15</div>
+<div class='grid-item' data-coordinate='14,16'></div>
+<div class='grid-item with-content' data-coordinate='14,17' onClick='showItemDetails("Part code: 151 - Storage\nManufacturer: Seagate\nDescription: FireCuda 520 1TB Performance Internal Solid State Drive\nPrice: 149.99\nQuantity: 437\n\nLocated in warehouse section: 14,17")'>Part: 151<br />Qty: 437 14,17</div>
+<div class='grid-item with-content' data-coordinate='14,18' onClick='showItemDetails("Part code: 197 - Peripheral\nManufacturer: Canon\nDescription: Webcam Model 130021\nPrice: 223.67\nQuantity: 461\n\nLocated in warehouse section: 14,18")'>Part: 197<br />Qty: 461 14,18</div>
+<div class='grid-item with-content' data-coordinate='14,19' onClick='showItemDetails("Part code: 2 - Motherboard\nManufacturer: ASUS\nDescription: ROG STRIX B550-F GAMING DDR4 ATX Motherboard\nPrice: 142.98\nQuantity: 54\n\nLocated in warehouse section: 14,19")'>Part: 2<br />Qty: 54 14,19</div>
+<div class='grid-item' data-coordinate='14,20'></div>
+<div class='grid-item with-content' data-coordinate='14,21' onClick='showItemDetails("Part code: 101 - Power Supply\nManufacturer: Cooler Master\nDescription: 750 Watt MWE Gold Fully Modular\nPrice: 99.99\nQuantity: 236\n\nLocated in warehouse section: 14,21")'>Part: 101<br />Qty: 236 14,21</div>
+<div class='grid-item with-content' data-coordinate='14,22' onClick='showItemDetails("Part code: 115 - Random Access Memory\nManufacturer: Crucial\nDescription: Ballistix 64GB (2 x 32GB) DDR4-3200 Memory\nPrice: 279.99\nQuantity: 266\n\nLocated in warehouse section: 14,22")'>Part: 115<br />Qty: 266 14,22</div>
+<div class='grid-item' data-coordinate='14,23'></div>
+<div class='grid-item' data-coordinate='14,24'></div>
+<div class='grid-item' data-coordinate='14,25'></div>
+<div class='grid-item with-content' data-coordinate='14,26' onClick='showItemDetails("Part code: 27 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3700X Processor\nPrice: 324.99\nQuantity: 17\n\nLocated in warehouse section: 14,26")'>Part: 27<br />Qty: 17 14,26</div>
+<div class='grid-item' data-coordinate='14,27'></div>
+<div class='grid-item with-content' data-coordinate='14,28' onClick='showItemDetails("Part code: 110 - Power Supply\nManufacturer: Cooler Master\nDescription: MasterWatt Maker 1200 MIJ 80 PLUS Titanium\nPrice: 999.99\nQuantity: 405\n\nLocated in warehouse section: 14,28")'>Part: 110<br />Qty: 405 14,28</div>
+<div class='grid-item with-content' data-coordinate='14,29' onClick='showItemDetails("Part code: 171 - Video Card\nManufacturer: MSI\nDescription: GeForce GTX 1650 Super Gaming X\nPrice: 189.99\nQuantity: 86\n\nLocated in warehouse section: 14,29")'>Part: 171<br />Qty: 86 14,29</div>
+<div class='grid-item with-content' data-coordinate='15,0' onClick='showItemDetails("Part code: 154 - Storage\nManufacturer: Samsung\nDescription: 870 QVO 1TB 2.5 Inch SATA III Internal SSD\nPrice: 109.99\nQuantity: 343\n\nLocated in warehouse section: 15,0")'>Part: 154<br />Qty: 343 15,0</div>
+<div class='grid-item' data-coordinate='15,1'></div>
+<div class='grid-item with-content' data-coordinate='15,2' onClick='showItemDetails("Part code: 18 - Motherboard\nManufacturer: ASRock\nDescription: B450M Pro4 AM4 Micro-ATX Motherboard\nPrice: 74.99\nQuantity: 87\n\nLocated in warehouse section: 15,2")'>Part: 18<br />Qty: 87 15,2</div>
+<div class='grid-item' data-coordinate='15,3'></div>
+<div class='grid-item' data-coordinate='15,4'></div>
+<div class='grid-item with-content' data-coordinate='15,5' onClick='showItemDetails("Part code: 117 - Random Access Memory\nManufacturer: G.Skill\nDescription: Trident Z Neo Series 32GB (2 x 16GB) DDR4-3600 PC4-28800\nPrice: 189.99\nQuantity: 153\n\nLocated in warehouse section: 15,5")'>Part: 117<br />Qty: 153 15,5</div>
+<div class='grid-item with-content' data-coordinate='15,6' onClick='showItemDetails("Part code: 127 - Random Access Memory\nManufacturer: Corsair\nDescription: Dominator Platinum RGB 32GB (2 x 16GB) DDR4-3200 Memory\nPrice: 189.99\nQuantity: 242\n\nLocated in warehouse section: 15,6")'>Part: 127<br />Qty: 242 15,6</div>
+<div class='grid-item with-content' data-coordinate='15,7' onClick='showItemDetails("Part code: 8 - Motherboard\nManufacturer: ASUS\nDescription: PRIME B450M-K AM4 Micro-ATX Motherboard\nPrice: 79.99\nQuantity: 73\n\nLocated in warehouse section: 15,7")'>Part: 8<br />Qty: 73 15,7</div>
+<div class='grid-item' data-coordinate='15,8'></div>
+<div class='grid-item with-content' data-coordinate='15,9' onClick='showItemDetails("Part code: 36 - Processor\nManufacturer: Intel\nDescription: Core i9-10850K Processor\nPrice: 449.99\nQuantity: 467\n\nLocated in warehouse section: 15,9")'>Part: 36<br />Qty: 467 15,9</div>
+<div class='grid-item with-content' data-coordinate='15,10' onClick='showItemDetails("Part code: 79 - Case Fan\nManufacturer: Scythe\nDescription: Kaze Flex 120 RGB PWM\nPrice: 17.99\nQuantity: 447\n\nLocated in warehouse section: 15,10")'>Part: 79<br />Qty: 447 15,10</div>
+<div class='grid-item with-content' data-coordinate='15,11' onClick='showItemDetails("Part code: 132 - Random Access Memory\nManufacturer: Patriot\nDescription: Viper 4 Blackout 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 7\n\nLocated in warehouse section: 15,11")'>Part: 132<br />Qty: 7 15,11</div>
+<div class='grid-item' data-coordinate='15,12'></div>
+<div class='grid-item with-content' data-coordinate='15,13' onClick='showItemDetails("Part code: 174 - Video Card\nManufacturer: ASUS\nDescription: GeForce RTX 2080 Super Overclocked\nPrice: 729.99\nQuantity: 435\n\nLocated in warehouse section: 15,13")'>Part: 174<br />Qty: 435 15,13</div>
+<div class='grid-item with-content' data-coordinate='15,14' onClick='showItemDetails("Part code: 39 - Processor\nManufacturer: AMD\nDescription: Ryzen 5 5600X Processor\nPrice: 299.99\nQuantity: 234\n\nLocated in warehouse section: 15,14")'>Part: 39<br />Qty: 234 15,14</div>
+<div class='grid-item with-content' data-coordinate='15,15' onClick='showItemDetails("Part code: 34 - Processor\nManufacturer: Intel\nDescription: Core i7-9700 Processor\nPrice: 299.99\nQuantity: 148\n\nLocated in warehouse section: 15,15")'>Part: 34<br />Qty: 148 15,15</div>
+<div class='grid-item with-content' data-coordinate='15,16' onClick='showItemDetails("Part code: 81 - Case Fan\nManufacturer: EKWB\nDescription: EK-Vardar EVO 120ER RGB (500-2200 rpm)\nPrice: 29.99\nQuantity: 181\n\nLocated in warehouse section: 15,16")'>Part: 81<br />Qty: 181 15,16</div>
+<div class='grid-item' data-coordinate='15,17'></div>
+<div class='grid-item' data-coordinate='15,18'></div>
+<div class='grid-item' data-coordinate='15,19'></div>
+<div class='grid-item' data-coordinate='15,20'></div>
+<div class='grid-item' data-coordinate='15,21'></div>
+<div class='grid-item with-content' data-coordinate='15,22' onClick='showItemDetails("Part code: 96 - Peripheral Card\nManufacturer: ASUS\nDescription: Hyper M.2 x16 Card V2 - Interface Adapter - M.2 Card - Expansion Slot\nPrice: 54.99\nQuantity: 51\n\nLocated in warehouse section: 15,22")'>Part: 96<br />Qty: 51 15,22</div>
+<div class='grid-item with-content' data-coordinate='15,23' onClick='showItemDetails("Part code: 126 - Random Access Memory\nManufacturer: Patriot\nDescription: Signature Premium 16GB (2 x 8GB) DDR4-2666 Memory\nPrice: 72.99\nQuantity: 335\n\nLocated in warehouse section: 15,23")'>Part: 126<br />Qty: 335 15,23</div>
+<div class='grid-item' data-coordinate='15,24'></div>
+<div class='grid-item with-content' data-coordinate='15,25' onClick='showItemDetails("Part code: 7 - Motherboard\nManufacturer: Gigabyte\nDescription: B550M AORUS PRO AM4 Micro-ATX Motherboard\nPrice: 129.00\nQuantity: 287\n\nLocated in warehouse section: 15,25")'>Part: 7<br />Qty: 287 15,25</div>
+<div class='grid-item' data-coordinate='15,26'></div>
+<div class='grid-item with-content' data-coordinate='15,27' onClick='showItemDetails("Part code: 74 - Case Fan\nManufacturer: NZXT\nDescription: Aer RGB 2 - 120mm\nPrice: 29.99\nQuantity: 13\n\nLocated in warehouse section: 15,27")'>Part: 74<br />Qty: 13 15,27</div>
+<div class='grid-item with-content' data-coordinate='15,28' onClick='showItemDetails("Part code: 112 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance LPX 16GB (2 x 8GB) DDR4-3200 PC4-25600 Memory\nPrice: 72.99\nQuantity: 415\n\nLocated in warehouse section: 15,28")'>Part: 112<br />Qty: 415 15,28</div>
+<div class='grid-item with-content' data-coordinate='15,29' onClick='showItemDetails("Part code: 116 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance RGB Pro 16GB (2 x 8GB) DDR4-3600 PC4-28800\nPrice: 99.99\nQuantity: 432\n\nLocated in warehouse section: 15,29")'>Part: 116<br />Qty: 432 15,29</div>
+<div class='grid-item' data-coordinate='16,0'></div>
+<div class='grid-item' data-coordinate='16,1'></div>
+<div class='grid-item with-content' data-coordinate='16,2' onClick='showItemDetails("Part code: 193 - Peripheral\nManufacturer: HP\nDescription: Scanner Model 130017\nPrice: 270.22\nQuantity: 207\n\nLocated in warehouse section: 16,2")'>Part: 193<br />Qty: 207 16,2</div>
+<div class='grid-item with-content' data-coordinate='16,3' onClick='showItemDetails("Part code: 29 - Processor\nManufacturer: AMD\nDescription: Ryzen 9 3950X Processor\nPrice: 729.99\nQuantity: 152\n\nLocated in warehouse section: 16,3")'>Part: 29<br />Qty: 152 16,3</div>
+<div class='grid-item with-content' data-coordinate='16,4' onClick='showItemDetails("Part code: 27 - Processor\nManufacturer: AMD\nDescription: Ryzen 7 3700X Processor\nPrice: 324.99\nQuantity: 123\n\nLocated in warehouse section: 16,4")'>Part: 27<br />Qty: 123 16,4</div>
+<div class='grid-item' data-coordinate='16,5'></div>
+<div class='grid-item with-content' data-coordinate='16,6' onClick='showItemDetails("Part code: 117 - Random Access Memory\nManufacturer: G.Skill\nDescription: Trident Z Neo Series 32GB (2 x 16GB) DDR4-3600 PC4-28800\nPrice: 189.99\nQuantity: 102\n\nLocated in warehouse section: 16,6")'>Part: 117<br />Qty: 102 16,6</div>
+<div class='grid-item' data-coordinate='16,7'></div>
+<div class='grid-item with-content' data-coordinate='16,8' onClick='showItemDetails("Part code: 195 - Peripheral\nManufacturer: Philips\nDescription: Scanner Model 130019\nPrice: 57.58\nQuantity: 445\n\nLocated in warehouse section: 16,8")'>Part: 195<br />Qty: 445 16,8</div>
+<div class='grid-item with-content' data-coordinate='16,9' onClick='showItemDetails("Part code: 29 - Processor\nManufacturer: AMD\nDescription: Ryzen 9 3950X Processor\nPrice: 729.99\nQuantity: 384\n\nLocated in warehouse section: 16,9")'>Part: 29<br />Qty: 384 16,9</div>
+<div class='grid-item with-content' data-coordinate='16,10' onClick='showItemDetails("Part code: 61 - CPU Cooler\nManufacturer: Fractal Design\nDescription: Celsius S36 Blackout 360mm Liquid Cooler\nPrice: 119.99\nQuantity: 202\n\nLocated in warehouse section: 16,10")'>Part: 61<br />Qty: 202 16,10</div>
+<div class='grid-item with-content' data-coordinate='16,11' onClick='showItemDetails("Part code: 94 - Peripheral Card\nManufacturer: StarTech\nDescription: 2 Port PCI RS422/485 Serial Adapter Card with 161050 UART\nPrice: 69.99\nQuantity: 72\n\nLocated in warehouse section: 16,11")'>Part: 94<br />Qty: 72 16,11</div>
+<div class='grid-item' data-coordinate='16,12'></div>
+<div class='grid-item with-content' data-coordinate='16,13' onClick='showItemDetails("Part code: 150 - Storage\nManufacturer: Western Digital\nDescription: WD_Black SN750 500GB NVMe Internal Gaming SSD\nPrice: 69.99\nQuantity: 170\n\nLocated in warehouse section: 16,13")'>Part: 150<br />Qty: 170 16,13</div>
+<div class='grid-item with-content' data-coordinate='16,14' onClick='showItemDetails("Part code: 205 - Peripheral\nManufacturer: Epson\nDescription: Scanner Model 130029\nPrice: 146.11\nQuantity: 262\n\nLocated in warehouse section: 16,14")'>Part: 205<br />Qty: 262 16,14</div>
+<div class='grid-item' data-coordinate='16,15'></div>
+<div class='grid-item' data-coordinate='16,16'></div>
+<div class='grid-item' data-coordinate='16,17'></div>
+<div class='grid-item with-content' data-coordinate='16,18' onClick='showItemDetails("Part code: 130 - Random Access Memory\nManufacturer: ADATA\nDescription: XPG GAMMIX D30 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 159\n\nLocated in warehouse section: 16,18")'>Part: 130<br />Qty: 159 16,18</div>
+<div class='grid-item' data-coordinate='16,19'></div>
+<div class='grid-item' data-coordinate='16,20'></div>
+<div class='grid-item with-content' data-coordinate='16,21' onClick='showItemDetails("Part code: 26 - Processor\nManufacturer: Intel\nDescription: Core i7-10700K Processor\nPrice: 348.99\nQuantity: 239\n\nLocated in warehouse section: 16,21")'>Part: 26<br />Qty: 239 16,21</div>
+<div class='grid-item' data-coordinate='16,22'></div>
+<div class='grid-item with-content' data-coordinate='16,23' onClick='showItemDetails("Part code: 79 - Case Fan\nManufacturer: Scythe\nDescription: Kaze Flex 120 RGB PWM\nPrice: 17.99\nQuantity: 303\n\nLocated in warehouse section: 16,23")'>Part: 79<br />Qty: 303 16,23</div>
+<div class='grid-item' data-coordinate='16,24'></div>
+<div class='grid-item' data-coordinate='16,25'></div>
+<div class='grid-item with-content' data-coordinate='16,26' onClick='showItemDetails("Part code: 206 - Peripheral\nManufacturer: Microsoft\nDescription: Keyboard Model 130030\nPrice: 96.90\nQuantity: 170\n\nLocated in warehouse section: 16,26")'>Part: 206<br />Qty: 170 16,26</div>
+<div class='grid-item' data-coordinate='16,27'></div>
+<div class='grid-item with-content' data-coordinate='16,28' onClick='showItemDetails("Part code: 55 - CPU Cooler\nManufacturer: be quiet!\nDescription: Dark Rock Pro 4 CPU Cooler\nPrice: 89.90\nQuantity: 243\n\nLocated in warehouse section: 16,28")'>Part: 55<br />Qty: 243 16,28</div>
+<div class='grid-item with-content' data-coordinate='16,29' onClick='showItemDetails("Part code: 103 - Power Supply\nManufacturer: Gigabyte\nDescription: GP-P750GM - 750 Watt 80 Plus Gold Certified Fully Modular PSU\nPrice: 109.99\nQuantity: 245\n\nLocated in warehouse section: 16,29")'>Part: 103<br />Qty: 245 16,29</div>
+<div class='grid-item' data-coordinate='17,0'></div>
+<div class='grid-item' data-coordinate='17,1'></div>
+<div class='grid-item with-content' data-coordinate='17,2' onClick='showItemDetails("Part code: 164 - Video Card\nManufacturer: ZOTAC\nDescription: GeForce GTX 1060 AMP Edition\nPrice: 209.99\nQuantity: 342\n\nLocated in warehouse section: 17,2")'>Part: 164<br />Qty: 342 17,2</div>
+<div class='grid-item' data-coordinate='17,3'></div>
+<div class='grid-item with-content' data-coordinate='17,4' onClick='showItemDetails("Part code: 49 - PC Case\nManufacturer: Lian Li\nDescription: Lancool II Mesh Performance ATX Case\nPrice: 94.99\nQuantity: 344\n\nLocated in warehouse section: 17,4")'>Part: 49<br />Qty: 344 17,4</div>
+<div class='grid-item with-content' data-coordinate='17,5' onClick='showItemDetails("Part code: 73 - Case Fan\nManufacturer: Thermaltake\nDescription: Pure 12 ARGB 3Pack\nPrice: 49.99\nQuantity: 99\n\nLocated in warehouse section: 17,5")'>Part: 73<br />Qty: 99 17,5</div>
+<div class='grid-item' data-coordinate='17,6'></div>
+<div class='grid-item' data-coordinate='17,7'></div>
+<div class='grid-item with-content' data-coordinate='17,8' onClick='showItemDetails("Part code: 189 - Peripheral\nManufacturer: Canon\nDescription: Printer Model 130013\nPrice: 47.16\nQuantity: 338\n\nLocated in warehouse section: 17,8")'>Part: 189<br />Qty: 338 17,8</div>
+<div class='grid-item with-content' data-coordinate='17,9' onClick='showItemDetails("Part code: 191 - Peripheral\nManufacturer: Samsung\nDescription: Scanner Model 130015\nPrice: 60.33\nQuantity: 331\n\nLocated in warehouse section: 17,9")'>Part: 191<br />Qty: 331 17,9</div>
+<div class='grid-item' data-coordinate='17,10'></div>
+<div class='grid-item with-content' data-coordinate='17,11' onClick='showItemDetails("Part code: 66 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-U9B SE2\nPrice: 59.99\nQuantity: 214\n\nLocated in warehouse section: 17,11")'>Part: 66<br />Qty: 214 17,11</div>
+<div class='grid-item' data-coordinate='17,12'></div>
+<div class='grid-item' data-coordinate='17,13'></div>
+<div class='grid-item with-content' data-coordinate='17,14' onClick='showItemDetails("Part code: 175 - Video Card\nManufacturer: MSI\nDescription: GeForce RTX 2070 SUPER GAMING X TRIO\nPrice: 529.99\nQuantity: 472\n\nLocated in warehouse section: 17,14")'>Part: 175<br />Qty: 472 17,14</div>
+<div class='grid-item' data-coordinate='17,15'></div>
+<div class='grid-item' data-coordinate='17,16'></div>
+<div class='grid-item' data-coordinate='17,17'></div>
+<div class='grid-item' data-coordinate='17,18'></div>
+<div class='grid-item' data-coordinate='17,19'></div>
+<div class='grid-item' data-coordinate='17,20'></div>
+<div class='grid-item' data-coordinate='17,21'></div>
+<div class='grid-item with-content' data-coordinate='17,22' onClick='showItemDetails("Part code: 42 - Processor\nManufacturer: Intel\nDescription: Core i7-10700 Processor\nPrice: 339.99\nQuantity: 378\n\nLocated in warehouse section: 17,22")'>Part: 42<br />Qty: 378 17,22</div>
+<div class='grid-item' data-coordinate='17,23'></div>
+<div class='grid-item' data-coordinate='17,24'></div>
+<div class='grid-item' data-coordinate='17,25'></div>
+<div class='grid-item with-content' data-coordinate='17,26' onClick='showItemDetails("Part code: 141 - Sound Card\nManufacturer: Creative Labs\nDescription: Sound Blaster ZxR\nPrice: 249.99\nQuantity: 395\n\nLocated in warehouse section: 17,26")'>Part: 141<br />Qty: 395 17,26</div>
+<div class='grid-item with-content' data-coordinate='17,27' onClick='showItemDetails("Part code: 189 - Peripheral\nManufacturer: Canon\nDescription: Printer Model 130013\nPrice: 47.16\nQuantity: 406\n\nLocated in warehouse section: 17,27")'>Part: 189<br />Qty: 406 17,27</div>
+<div class='grid-item' data-coordinate='17,28'></div>
+<div class='grid-item with-content' data-coordinate='17,29' onClick='showItemDetails("Part code: 59 - CPU Cooler\nManufacturer: DEEPCOOL\nDescription: Gammaxx 400 CPU Air Cooler\nPrice: 24.99\nQuantity: 241\n\nLocated in warehouse section: 17,29")'>Part: 59<br />Qty: 241 17,29</div>
+<div class='grid-item' data-coordinate='18,0'></div>
+<div class='grid-item with-content' data-coordinate='18,1' onClick='showItemDetails("Part code: 102 - Power Supply\nManufacturer: Thermaltake\nDescription: Toughpower GF1 850W 80+ Gold Fully Modular\nPrice: 149.99\nQuantity: 150\n\nLocated in warehouse section: 18,1")'>Part: 102<br />Qty: 150 18,1</div>
+<div class='grid-item with-content' data-coordinate='18,2' onClick='showItemDetails("Part code: 114 - Random Access Memory\nManufacturer: Kingston\nDescription: HyperX Fury 8GB (1 x 8GB) DDR4-2666 PC4-21300 Memory\nPrice: 36.99\nQuantity: 262\n\nLocated in warehouse section: 18,2")'>Part: 114<br />Qty: 262 18,2</div>
+<div class='grid-item' data-coordinate='18,3'></div>
+<div class='grid-item with-content' data-coordinate='18,4' onClick='showItemDetails("Part code: 6 - Motherboard\nManufacturer: MSI\nDescription: MPG X570 GAMING EDGE WIFI ATX Motherboard\nPrice: 209.99\nQuantity: 350\n\nLocated in warehouse section: 18,4")'>Part: 6<br />Qty: 350 18,4</div>
+<div class='grid-item' data-coordinate='18,5'></div>
+<div class='grid-item with-content' data-coordinate='18,6' onClick='showItemDetails("Part code: 54 - CPU Cooler\nManufacturer: Noctua\nDescription: NH-D15 CPU Cooler\nPrice: 89.90\nQuantity: 338\n\nLocated in warehouse section: 18,6")'>Part: 54<br />Qty: 338 18,6</div>
+<div class='grid-item' data-coordinate='18,7'></div>
+<div class='grid-item' data-coordinate='18,8'></div>
+<div class='grid-item' data-coordinate='18,9'></div>
+<div class='grid-item with-content' data-coordinate='18,10' onClick='showItemDetails("Part code: 201 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130025\nPrice: 36.11\nQuantity: 421\n\nLocated in warehouse section: 18,10")'>Part: 201<br />Qty: 421 18,10</div>
+<div class='grid-item' data-coordinate='18,11'></div>
+<div class='grid-item with-content' data-coordinate='18,12' onClick='showItemDetails("Part code: 60 - CPU Cooler\nManufacturer: ARCTIC\nDescription: Freezer 34 eSports DUO\nPrice: 39.99\nQuantity: 113\n\nLocated in warehouse section: 18,12")'>Part: 60<br />Qty: 113 18,12</div>
+<div class='grid-item with-content' data-coordinate='18,13' onClick='showItemDetails("Part code: 91 - Peripheral Card\nManufacturer: StarTech\nDescription: 2 Port Native PCI Express RS232 Serial Adapter Card with 16550 UART\nPrice: 34.99\nQuantity: 412\n\nLocated in warehouse section: 18,13")'>Part: 91<br />Qty: 412 18,13</div>
+<div class='grid-item with-content' data-coordinate='18,14' onClick='showItemDetails("Part code: 139 - Sound Card\nManufacturer: Creative Labs\nDescription: Sound Blaster X-Fi Surround 5.1 Pro v3\nPrice: 69.99\nQuantity: 462\n\nLocated in warehouse section: 18,14")'>Part: 139<br />Qty: 462 18,14</div>
+<div class='grid-item with-content' data-coordinate='18,15' onClick='showItemDetails("Part code: 149 - Storage\nManufacturer: Samsung\nDescription: 970 EVO Plus SSD 500GB - M.2 NVMe Interface Internal SSD\nPrice: 89.99\nQuantity: 54\n\nLocated in warehouse section: 18,15")'>Part: 149<br />Qty: 54 18,15</div>
+<div class='grid-item with-content' data-coordinate='18,16' onClick='showItemDetails("Part code: 202 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130026\nPrice: 31.36\nQuantity: 116\n\nLocated in warehouse section: 18,16")'>Part: 202<br />Qty: 116 18,16</div>
+<div class='grid-item' data-coordinate='18,17'></div>
+<div class='grid-item' data-coordinate='18,18'></div>
+<div class='grid-item with-content' data-coordinate='18,19' onClick='showItemDetails("Part code: 107 - Power Supply\nManufacturer: EVGA\nDescription: 220-G3-0850-X1 Super Nova 850 G3 PSU\nPrice: 129.99\nQuantity: 301\n\nLocated in warehouse section: 18,19")'>Part: 107<br />Qty: 301 18,19</div>
+<div class='grid-item' data-coordinate='18,20'></div>
+<div class='grid-item with-content' data-coordinate='18,21' onClick='showItemDetails("Part code: 174 - Video Card\nManufacturer: ASUS\nDescription: GeForce RTX 2080 Super Overclocked\nPrice: 729.99\nQuantity: 21\n\nLocated in warehouse section: 18,21")'>Part: 174<br />Qty: 21 18,21</div>
+<div class='grid-item with-content' data-coordinate='18,22' onClick='showItemDetails("Part code: 11 - Motherboard\nManufacturer: MSI\nDescription: MPG Z490 GAMING PLUS ATX\nPrice: 219.99\nQuantity: 485\n\nLocated in warehouse section: 18,22")'>Part: 11<br />Qty: 485 18,22</div>
+<div class='grid-item' data-coordinate='18,23'></div>
+<div class='grid-item' data-coordinate='18,24'></div>
+<div class='grid-item with-content' data-coordinate='18,25' onClick='showItemDetails("Part code: 97 - Power Supply\nManufacturer: Corsair\nDescription: RM850x 850 Watt 80 Plus Gold Certified Fully Modular PSU\nPrice: 134.99\nQuantity: 413\n\nLocated in warehouse section: 18,25")'>Part: 97<br />Qty: 413 18,25</div>
+<div class='grid-item with-content' data-coordinate='18,26' onClick='showItemDetails("Part code: 124 - Random Access Memory\nManufacturer: Teamgroup\nDescription: T-FORCE VULCAN TUF Gaming 16GB (2 x 8GB) DDR4-3200\nPrice: 72.99\nQuantity: 169\n\nLocated in warehouse section: 18,26")'>Part: 124<br />Qty: 169 18,26</div>
+<div class='grid-item with-content' data-coordinate='18,27' onClick='showItemDetails("Part code: 154 - Storage\nManufacturer: Samsung\nDescription: 870 QVO 1TB 2.5 Inch SATA III Internal SSD\nPrice: 109.99\nQuantity: 5\n\nLocated in warehouse section: 18,27")'>Part: 154<br />Qty: 5 18,27</div>
+<div class='grid-item with-content' data-coordinate='18,28' onClick='showItemDetails("Part code: 201 - Peripheral\nManufacturer: Dell\nDescription: Speakers Model 130025\nPrice: 36.11\nQuantity: 33\n\nLocated in warehouse section: 18,28")'>Part: 201<br />Qty: 33 18,28</div>
+<div class='grid-item with-content' data-coordinate='18,29' onClick='showItemDetails("Part code: 32 - Processor\nManufacturer: Intel\nDescription: Core i9-10980XE Processor\nPrice: 979.99\nQuantity: 402\n\nLocated in warehouse section: 18,29")'>Part: 32<br />Qty: 402 18,29</div>
+<div class='grid-item' data-coordinate='19,0'></div>
+<div class='grid-item with-content' data-coordinate='19,1' onClick='showItemDetails("Part code: 70 - Case Fan\nManufacturer: Corsair\nDescription: LL120 RGB 120mm Dual Light Loop RGB LED PWM Fan\nPrice: 34.99\nQuantity: 285\n\nLocated in warehouse section: 19,1")'>Part: 70<br />Qty: 285 19,1</div>
+<div class='grid-item with-content' data-coordinate='19,2' onClick='showItemDetails("Part code: 81 - Case Fan\nManufacturer: EKWB\nDescription: EK-Vardar EVO 120ER RGB (500-2200 rpm)\nPrice: 29.99\nQuantity: 369\n\nLocated in warehouse section: 19,2")'>Part: 81<br />Qty: 369 19,2</div>
+<div class='grid-item' data-coordinate='19,3'></div>
+<div class='grid-item with-content' data-coordinate='19,4' onClick='showItemDetails("Part code: 158 - Storage\nManufacturer: Toshiba\nDescription: N300 6TB NAS 3.5-Inch Internal Hard Drive\nPrice: 159.99\nQuantity: 201\n\nLocated in warehouse section: 19,4")'>Part: 158<br />Qty: 201 19,4</div>
+<div class='grid-item' data-coordinate='19,5'></div>
+<div class='grid-item' data-coordinate='19,6'></div>
+<div class='grid-item with-content' data-coordinate='19,7' onClick='showItemDetails("Part code: 64 - CPU Cooler\nManufacturer: Scythe\nDescription: Mugen 5 Rev.B CPU Air Cooler\nPrice: 49.99\nQuantity: 394\n\nLocated in warehouse section: 19,7")'>Part: 64<br />Qty: 394 19,7</div>
+<div class='grid-item with-content' data-coordinate='19,8' onClick='showItemDetails("Part code: 96 - Peripheral Card\nManufacturer: ASUS\nDescription: Hyper M.2 x16 Card V2 - Interface Adapter - M.2 Card - Expansion Slot\nPrice: 54.99\nQuantity: 253\n\nLocated in warehouse section: 19,8")'>Part: 96<br />Qty: 253 19,8</div>
+<div class='grid-item with-content' data-coordinate='19,9' onClick='showItemDetails("Part code: 132 - Random Access Memory\nManufacturer: Patriot\nDescription: Viper 4 Blackout 16GB (2 x 8GB) DDR4-3200 Memory\nPrice: 72.99\nQuantity: 132\n\nLocated in warehouse section: 19,9")'>Part: 132<br />Qty: 132 19,9</div>
+<div class='grid-item with-content' data-coordinate='19,10' onClick='showItemDetails("Part code: 179 - Peripheral\nManufacturer: Logitech\nDescription: Webcam Model 130003\nPrice: 158.15\nQuantity: 130\n\nLocated in warehouse section: 19,10")'>Part: 179<br />Qty: 130 19,10</div>
+<div class='grid-item with-content' data-coordinate='19,11' onClick='showItemDetails("Part code: 180 - Peripheral\nManufacturer: Epson\nDescription: Printer Model 130004\nPrice: 225.52\nQuantity: 194\n\nLocated in warehouse section: 19,11")'>Part: 180<br />Qty: 194 19,11</div>
+<div class='grid-item' data-coordinate='19,12'></div>
+<div class='grid-item with-content' data-coordinate='19,13' onClick='showItemDetails("Part code: 62 - CPU Cooler\nManufacturer: Cooler Master\nDescription: MasterLiquid ML240L RGB V2\nPrice: 69.99\nQuantity: 66\n\nLocated in warehouse section: 19,13")'>Part: 62<br />Qty: 66 19,13</div>
+<div class='grid-item with-content' data-coordinate='19,14' onClick='showItemDetails("Part code: 113 - Random Access Memory\nManufacturer: G.Skill\nDescription: Ripjaws V 32GB (2 x 16GB) DDR4-3600 PC4-28800 Memory\nPrice: 139.99\nQuantity: 129\n\nLocated in warehouse section: 19,14")'>Part: 113<br />Qty: 129 19,14</div>
+<div class='grid-item with-content' data-coordinate='19,15' onClick='showItemDetails("Part code: 142 - Sound Card\nManufacturer: StarTech\nDescription: 7.1 USB Audio Adapter External Sound Card\nPrice: 29.99\nQuantity: 425\n\nLocated in warehouse section: 19,15")'>Part: 142<br />Qty: 425 19,15</div>
+<div class='grid-item with-content' data-coordinate='19,16' onClick='showItemDetails("Part code: 153 - Storage\nManufacturer: Kingston\nDescription: A2000 NVMe PCIe M.2 1TB SSD\nPrice: 114.99\nQuantity: 45\n\nLocated in warehouse section: 19,16")'>Part: 153<br />Qty: 45 19,16</div>
+<div class='grid-item' data-coordinate='19,17'></div>
+<div class='grid-item' data-coordinate='19,18'></div>
+<div class='grid-item with-content' data-coordinate='19,19' onClick='showItemDetails("Part code: 73 - Case Fan\nManufacturer: Thermaltake\nDescription: Pure 12 ARGB 3Pack\nPrice: 49.99\nQuantity: 398\n\nLocated in warehouse section: 19,19")'>Part: 73<br />Qty: 398 19,19</div>
+<div class='grid-item with-content' data-coordinate='19,20' onClick='showItemDetails("Part code: 112 - Random Access Memory\nManufacturer: Corsair\nDescription: Vengeance LPX 16GB (2 x 8GB) DDR4-3200 PC4-25600 Memory\nPrice: 72.99\nQuantity: 324\n\nLocated in warehouse section: 19,20")'>Part: 112<br />Qty: 324 19,20</div>
+<div class='grid-item with-content' data-coordinate='19,21' onClick='showItemDetails("Part code: 119 - Random Access Memory\nManufacturer: ADATA\nDescription: XPG Z1 16GB (2 x 8GB) DDR4-3000 Memory\nPrice: 64.99\nQuantity: 372\n\nLocated in warehouse section: 19,21")'>Part: 119<br />Qty: 372 19,21</div>
+<div class='grid-item with-content' data-coordinate='19,22' onClick='showItemDetails("Part code: 149 - Storage\nManufacturer: Samsung\nDescription: 970 EVO Plus SSD 500GB - M.2 NVMe Interface Internal SSD\nPrice: 89.99\nQuantity: 198\n\nLocated in warehouse section: 19,22")'>Part: 149<br />Qty: 198 19,22</div>
+<div class='grid-item' data-coordinate='19,23'></div>
+<div class='grid-item with-content' data-coordinate='19,24' onClick='showItemDetails("Part code: 55 - CPU Cooler\nManufacturer: be quiet!\nDescription: Dark Rock Pro 4 CPU Cooler\nPrice: 89.90\nQuantity: 417\n\nLocated in warehouse section: 19,24")'>Part: 55<br />Qty: 417 19,24</div>
+<div class='grid-item' data-coordinate='19,25'></div>
+<div class='grid-item with-content' data-coordinate='19,26' onClick='showItemDetails("Part code: 123 - Random Access Memory\nManufacturer: Samsung\nDescription: M471A1K43CB1-CTD 8GB DDR4-2666 Memory\nPrice: 36.99\nQuantity: 158\n\nLocated in warehouse section: 19,26")'>Part: 123<br />Qty: 158 19,26</div>
+<div class='grid-item with-content' data-coordinate='19,27' onClick='showItemDetails("Part code: 150 - Storage\nManufacturer: Western Digital\nDescription: WD_Black SN750 500GB NVMe Internal Gaming SSD\nPrice: 69.99\nQuantity: 432\n\nLocated in warehouse section: 19,27")'>Part: 150<br />Qty: 432 19,27</div>
+<div class='grid-item' data-coordinate='19,28'></div>
+<div class='grid-item' data-coordinate='19,29'></div>
+</div>
+<script>
+function showItemDetails(details) {
+    alert(details);
+}
+</script>
+</body>
+</html>
+
